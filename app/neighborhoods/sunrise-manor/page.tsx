@@ -81,8 +81,16 @@ export default function SunriseManorPage() {
                 <li>• <strong>Lot Sizes:</strong> 3,500-7,000 square feet typical</li>
                 <li>• <strong>Home Sizes:</strong> 1,000-2,800 square feet</li>
                 <li>• <strong>Architecture:</strong> Traditional suburban styles</li>
-                <li>• <strong>HOA:</strong> Varies by subdivision</li>
+                <li>• <strong>HOA:</strong> Varies by subdivision ($20-$60/month)</li>
                 <li>• <strong>Mature Trees:</strong> Well-established landscaping</li>
+                <li>• <strong>Elevation:</strong> 1,900 feet above sea level</li>
+                <li>• <strong>Climate:</strong> Desert climate, 300+ sunny days annually</li>
+                <li>• <strong>Population Density:</strong> 2,800 people per square mile</li>
+                <li>• <strong>Median Age:</strong> 42 years old</li>
+                <li>• <strong>Household Size:</strong> 2.6 people average</li>
+                <li>• <strong>Median Household Income:</strong> $68,000</li>
+                <li>• <strong>Education Level:</strong> 58% have some college or higher</li>
+                <li>• <strong>Mature Community:</strong> Established neighborhood with character</li>
               </ul>
             </div>
           </div>
@@ -246,6 +254,12 @@ export default function SunriseManorPage() {
                   <li>• <strong>Annual Appreciation:</strong> 6.5%</li>
                   <li>• <strong>Inventory Level:</strong> Moderate (3.2 months supply)</li>
                   <li>• <strong>Owner Occupancy Rate:</strong> 88%</li>
+                  <li>• <strong>Rental Market:</strong> 1,800+ rental units available</li>
+                  <li>• <strong>Rental Yield:</strong> 5.8% average annual return</li>
+                  <li>• <strong>Property Tax Rate:</strong> 0.84% of assessed value</li>
+                  <li>• <strong>Insurance Cost:</strong> $1,100-$1,600 annually</li>
+                  <li>• <strong>HOA Fees:</strong> $20-$60 per month average</li>
+                  <li>• <strong>Utility Costs:</strong> $160-$250 monthly average</li>
                 </ul>
               </div>
             </div>
@@ -404,6 +418,36 @@ export default function SunriseManorPage() {
             <div className="bg-gray-50 rounded-lg p-6">
               <h3 className="text-xl font-semibold mb-3">What makes Sunrise Manor unique?</h3>
               <p className="text-gray-700">Sunrise Manor is unique for its excellent value proposition, established community with mature landscaping, family-friendly atmosphere, and convenient location that offers easy access to major destinations while maintaining affordable housing prices.</p>
+            </div>
+            
+            <div className="bg-gray-50 rounded-lg p-6">
+              <h3 className="text-xl font-semibold mb-3">What is the weather like in Sunrise Manor?</h3>
+              <p className="text-gray-700">Sunrise Manor enjoys a desert climate with 300+ sunny days annually. Summers are hot (90-110°F) with low humidity, winters are mild (40-60°F), and rainfall averages 4.5 inches per year. The elevation of 1,900 feet provides comfortable temperatures year-round.</p>
+            </div>
+            
+            <div className="bg-gray-50 rounded-lg p-6">
+              <h3 className="text-xl font-semibold mb-3">What are the property taxes in Sunrise Manor?</h3>
+              <p className="text-gray-700">Property taxes in Sunrise Manor average 0.84% of assessed value. For a $380,000 home, annual property taxes would be approximately $3,192. Nevada's property tax cap of 3% annual increase helps keep costs predictable for homeowners.</p>
+            </div>
+            
+            <div className="bg-gray-50 rounded-lg p-6">
+              <h3 className="text-xl font-semibold mb-3">What shopping options are available in Sunrise Manor?</h3>
+              <p className="text-gray-700">Sunrise Manor Shopping Center offers local retail options, while nearby areas feature major retailers including Walmart and Home Depot. The area includes 15+ restaurants, grocery stores (Smith's, Albertsons), medical facilities, and financial services.</p>
+            </div>
+            
+            <div className="bg-gray-50 rounded-lg p-6">
+              <h3 className="text-xl font-semibold mb-3">What is the demographic makeup of Sunrise Manor?</h3>
+              <p className="text-gray-700">Sunrise Manor has a median age of 42 with household sizes averaging 2.6 people. The median household income is $68,000, with 58% of residents having some college education or higher. The population density is 2,800 people per square mile.</p>
+            </div>
+            
+            <div className="bg-gray-50 rounded-lg p-6">
+              <h3 className="text-xl font-semibold mb-3">What are the utility costs in Sunrise Manor?</h3>
+              <p className="text-gray-700">Monthly utility costs in Sunrise Manor average $160-$250, including electricity ($70-$110), water/sewer ($35-$55), gas ($25-$45), and internet/cable ($30-$40). NV Energy and Southwest Gas are the primary utility providers.</p>
+            </div>
+            
+            <div className="bg-gray-50 rounded-lg p-6">
+              <h3 className="text-xl font-semibold mb-3">How does Sunrise Manor compare to other North Las Vegas neighborhoods?</h3>
+              <p className="text-gray-700">Sunrise Manor stands out for its excellent value and mature community character. While newer neighborhoods may offer more modern amenities, Sunrise Manor's established landscaping, affordable prices, and family-friendly atmosphere make it ideal for budget-conscious buyers seeking a stable community.</p>
             </div>
           </div>
         </div>

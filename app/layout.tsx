@@ -1,6 +1,8 @@
 import "styles/tailwind.css"
 import { Metadata } from "next"
 import { RealScoutWidget } from "../components/RealScoutWidget"
+import { Navigation } from "../components/Navigation"
+import { Footer } from "../components/Footer"
 
 export const metadata: Metadata = {
   title: {
@@ -70,7 +72,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         }} />
       </head>
       <body>
-        {children}
+        <Navigation />
+        <main>
+          {children}
+        </main>
+        <Footer />
         
         {/* RealScout Office Listings Widget - appears on every page */}
         <RealScoutWidget />

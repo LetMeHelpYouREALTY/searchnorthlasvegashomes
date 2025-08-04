@@ -81,8 +81,16 @@ export default function WinchesterPage() {
                 <li>• <strong>Lot Sizes:</strong> 4,000-8,000 square feet typical</li>
                 <li>• <strong>Home Sizes:</strong> 1,200-3,000 square feet</li>
                 <li>• <strong>Architecture:</strong> Modern suburban styles</li>
-                <li>• <strong>HOA:</strong> Varies by subdivision</li>
+                <li>• <strong>HOA:</strong> Varies by subdivision ($25-$70/month)</li>
                 <li>• <strong>Central Location:</strong> Easy access to all major areas</li>
+                <li>• <strong>Elevation:</strong> 2,100 feet above sea level</li>
+                <li>• <strong>Climate:</strong> Desert climate, 300+ sunny days annually</li>
+                <li>• <strong>Population Density:</strong> 3,200 people per square mile</li>
+                <li>• <strong>Median Age:</strong> 38 years old</li>
+                <li>• <strong>Household Size:</strong> 2.8 people average</li>
+                <li>• <strong>Median Household Income:</strong> $72,000</li>
+                <li>• <strong>Education Level:</strong> 65% have some college or higher</li>
+                <li>• <strong>Central Accessibility:</strong> 15-minute radius to major destinations</li>
               </ul>
             </div>
           </div>
@@ -246,6 +254,12 @@ export default function WinchesterPage() {
                   <li>• <strong>Annual Appreciation:</strong> 7.8%</li>
                   <li>• <strong>Inventory Level:</strong> Low (2.8 months supply)</li>
                   <li>• <strong>Owner Occupancy Rate:</strong> 91%</li>
+                  <li>• <strong>Rental Market:</strong> 2,100+ rental units available</li>
+                  <li>• <strong>Rental Yield:</strong> 5.2% average annual return</li>
+                  <li>• <strong>Property Tax Rate:</strong> 0.84% of assessed value</li>
+                  <li>• <strong>Insurance Cost:</strong> $1,200-$1,800 annually</li>
+                  <li>• <strong>HOA Fees:</strong> $25-$70 per month average</li>
+                  <li>• <strong>Utility Costs:</strong> $180-$280 monthly average</li>
                 </ul>
               </div>
             </div>
@@ -404,6 +418,36 @@ export default function WinchesterPage() {
             <div className="bg-gray-50 rounded-lg p-6">
               <h3 className="text-xl font-semibold mb-3">What makes Winchester unique?</h3>
               <p className="text-gray-700">Winchester is unique for its central location and excellent accessibility to all major destinations in Las Vegas. The neighborhood offers a perfect balance of suburban living with urban convenience, making it ideal for families and professionals.</p>
+            </div>
+            
+            <div className="bg-gray-50 rounded-lg p-6">
+              <h3 className="text-xl font-semibold mb-3">What is the weather like in Winchester?</h3>
+              <p className="text-gray-700">Winchester enjoys a desert climate with 300+ sunny days annually. Summers are hot (90-110°F) with low humidity, winters are mild (40-60°F), and rainfall averages 4.5 inches per year. The elevation of 2,100 feet provides slightly cooler temperatures than the valley floor.</p>
+            </div>
+            
+            <div className="bg-gray-50 rounded-lg p-6">
+              <h3 className="text-xl font-semibold mb-3">What are the property taxes in Winchester?</h3>
+              <p className="text-gray-700">Property taxes in Winchester average 0.84% of assessed value. For a $410,000 home, annual property taxes would be approximately $3,444. Nevada's property tax cap of 3% annual increase helps keep costs predictable for homeowners.</p>
+            </div>
+            
+            <div className="bg-gray-50 rounded-lg p-6">
+              <h3 className="text-xl font-semibold mb-3">What shopping options are available in Winchester?</h3>
+              <p className="text-gray-700">Winchester Town Center offers major retailers including Target, Home Depot, and Best Buy. The area features 25+ restaurants, grocery stores (Smith's, Albertsons, Trader Joe's), medical facilities, and financial services, all within convenient walking or driving distance.</p>
+            </div>
+            
+            <div className="bg-gray-50 rounded-lg p-6">
+              <h3 className="text-xl font-semibold mb-3">What is the demographic makeup of Winchester?</h3>
+              <p className="text-gray-700">Winchester has a median age of 38 with household sizes averaging 2.8 people. The median household income is $72,000, with 65% of residents having some college education or higher. The population density is 3,200 people per square mile.</p>
+            </div>
+            
+            <div className="bg-gray-50 rounded-lg p-6">
+              <h3 className="text-xl font-semibold mb-3">What are the utility costs in Winchester?</h3>
+              <p className="text-gray-700">Monthly utility costs in Winchester average $180-$280, including electricity ($80-$120), water/sewer ($40-$60), gas ($30-$50), and internet/cable ($30-$50). NV Energy and Southwest Gas are the primary utility providers.</p>
+            </div>
+            
+            <div className="bg-gray-50 rounded-lg p-6">
+              <h3 className="text-xl font-semibold mb-3">How does Winchester compare to other North Las Vegas neighborhoods?</h3>
+              <p className="text-gray-700">Winchester stands out for its central location and accessibility. While other neighborhoods may offer newer homes or mountain views, Winchester's 15-minute radius to major destinations, established community, and good schools make it uniquely convenient for families and professionals.</p>
             </div>
           </div>
         </div>
