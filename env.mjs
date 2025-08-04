@@ -4,7 +4,7 @@ import { z } from "zod"
 export const env = createEnv({
   server: {
     NODE_ENV: z.enum(["development", "production", "test"]),
-    VERCEL_URL: z.string().url().optional(),
+    VERCEL_URL: z.string().optional(),
     // Real estate API keys and tokens
     REALSCOUT_API_TOKEN: z.string().optional(),
     HOMEBOT_API_TOKEN: z.string().optional(),
