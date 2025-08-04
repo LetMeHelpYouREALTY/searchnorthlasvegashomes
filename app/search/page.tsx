@@ -458,12 +458,7 @@ export default function SearchPage() {
       {/* Homebot Valuation Widget Container */}
       <div 
         id="homebot-valuation-widget"
-        className="fixed bottom-4 right-4 z-50"
-        style={{ 
-          minHeight: '480px',
-          zIndex: 1000,
-          boxShadow: '0 2px 8px rgba(0,0,0,0.08)'
-        }}
+        className="fixed bottom-4 right-4 z-[1000] min-h-[480px] shadow-lg"
       >
         {/* Homebot widget will be loaded here with Shadow DOM */}
       </div>
