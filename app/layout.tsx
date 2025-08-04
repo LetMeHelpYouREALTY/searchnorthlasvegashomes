@@ -1,8 +1,8 @@
 import "styles/tailwind.css"
 import { Metadata } from "next"
-import { RealScoutWidget } from "../components/RealScoutWidget"
-import { Navigation } from "../components/Navigation"
 import { Footer } from "../components/Footer"
+import { Navigation } from "../components/Navigation"
+import { RealScoutWidget } from "../components/RealScoutWidget"
 
 export const metadata: Metadata = {
   title: {
