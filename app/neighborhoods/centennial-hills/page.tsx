@@ -83,6 +83,13 @@ export default function CentennialHillsNeighborhoodPage() {
                 <li>• <strong>Architecture:</strong> Modern desert contemporary</li>
                 <li>• <strong>HOA:</strong> Varies by subdivision</li>
                 <li>• <strong>Elevation:</strong> 2,800-3,200 feet above sea level</li>
+                <li>• <strong>Climate:</strong> Desert climate with 300+ sunny days annually</li>
+                <li>• <strong>Population Density:</strong> 1,800 residents per square mile</li>
+                <li>• <strong>Median Age:</strong> 42 years old</li>
+                <li>• <strong>Household Size:</strong> 2.9 people average</li>
+                <li>• <strong>Median Household Income:</strong> $92,000</li>
+                <li>• <strong>Education Level:</strong> 42% have bachelor's degree or higher</li>
+                <li>• <strong>Mountain Views:</strong> Direct views of Spring Mountains</li>
               </ul>
             </div>
             <div className="bg-white rounded-lg shadow-md p-8">
@@ -391,6 +398,30 @@ export default function CentennialHillsNeighborhoodPage() {
                 <div className="flex justify-between items-center">
                   <span className="text-gray-700">Owner Occupancy Rate</span>
                   <span className="font-semibold text-gray-900">92%</span>
+                </div>
+                <div className="flex justify-between items-center">
+                  <span className="text-gray-700">Rental Market</span>
+                  <span className="font-semibold text-gray-900">$2,400/month</span>
+                </div>
+                <div className="flex justify-between items-center">
+                  <span className="text-gray-700">Rental Yield</span>
+                  <span className="font-semibold text-gray-900">6.9%</span>
+                </div>
+                <div className="flex justify-between items-center">
+                  <span className="text-gray-700">Property Tax Rate</span>
+                  <span className="font-semibold text-gray-900">1.1%</span>
+                </div>
+                <div className="flex justify-between items-center">
+                  <span className="text-gray-700">Insurance Cost</span>
+                  <span className="font-semibold text-gray-900">$1,300-2,000</span>
+                </div>
+                <div className="flex justify-between items-center">
+                  <span className="text-gray-700">HOA Fees</span>
+                  <span className="font-semibold text-gray-900">$30-80/month</span>
+                </div>
+                <div className="flex justify-between items-center">
+                  <span className="text-gray-700">Utility Costs</span>
+                  <span className="font-semibold text-gray-900">$180-300/month</span>
                 </div>
               </div>
             </div>

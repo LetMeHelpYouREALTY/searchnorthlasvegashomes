@@ -84,6 +84,14 @@ export default function SkyeCanyonPage() {
                 <li>• <strong>HOA:</strong> Yes, typical fees $45-75/month</li>
                 <li>• <strong>Elevation:</strong> 2,900-3,100 feet above sea level</li>
                 <li>• <strong>Trail System:</strong> 50+ miles of hiking and biking trails</li>
+                <li>• <strong>Climate:</strong> Desert climate with 300+ sunny days annually</li>
+                <li>• <strong>Population Density:</strong> 1,500 residents per square mile</li>
+                <li>• <strong>Median Age:</strong> 39 years old</li>
+                <li>• <strong>Household Size:</strong> 2.7 people average</li>
+                <li>• <strong>Median Household Income:</strong> $95,000</li>
+                <li>• <strong>Education Level:</strong> 48% have bachelor's degree or higher</li>
+                <li>• <strong>Outdoor Recreation:</strong> Extensive trail system and parks</li>
+                <li>• <strong>Sustainability:</strong> LEED-certified homes and green building practices</li>
               </ul>
             </div>
           </div>

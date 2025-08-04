@@ -82,6 +82,11 @@ export default function AliantePage() {
                 <li>• <strong>Home Sizes:</strong> 1,200-3,500 square feet</li>
                 <li>• <strong>Architecture:</strong> Modern desert contemporary</li>
                 <li>• <strong>HOA:</strong> Yes, typical fees $25-50/month</li>
+                <li>• <strong>Elevation:</strong> 2,400 feet above sea level</li>
+                <li>• <strong>Climate:</strong> Desert climate with 300+ sunny days annually</li>
+                <li>• <strong>Population Density:</strong> 2,800 residents per square mile</li>
+                <li>• <strong>Median Age:</strong> 38 years old</li>
+                <li>• <strong>Household Size:</strong> 2.8 people average</li>
               </ul>
             </div>
           </div>
@@ -244,6 +249,12 @@ export default function AliantePage() {
                   <li>• <strong>Annual Appreciation:</strong> 8.2%</li>
                   <li>• <strong>Inventory Level:</strong> Low (2.1 months supply)</li>
                   <li>• <strong>Owner Occupancy Rate:</strong> 95%</li>
+                  <li>• <strong>Rental Market:</strong> Median rent $2,200/month</li>
+                  <li>• <strong>Rental Yield:</strong> 5.9% average</li>
+                  <li>• <strong>Property Tax Rate:</strong> 1.1% of assessed value</li>
+                  <li>• <strong>Insurance Cost:</strong> $1,200-1,800 annually</li>
+                  <li>• <strong>HOA Fees:</strong> $25-50/month average</li>
+                  <li>• <strong>Utility Costs:</strong> $150-250/month average</li>
                 </ul>
               </div>
             </div>
@@ -397,6 +408,36 @@ export default function AliantePage() {
             <div className="bg-gray-50 rounded-lg p-6">
               <h3 className="text-xl font-semibold mb-3">How far is Aliante from the airport?</h3>
               <p className="text-gray-700">McCarran International Airport (LAS) is approximately 15 minutes from Aliante via US-95 freeway (12 miles). North Las Vegas Airport is even closer at just 8 minutes away (6 miles).</p>
+            </div>
+            
+            <div className="bg-gray-50 rounded-lg p-6">
+              <h3 className="text-xl font-semibold mb-3">What is the weather like in Aliante?</h3>
+              <p className="text-gray-700">Aliante enjoys a desert climate with over 300 sunny days annually. Summers are hot (90-110°F) with low humidity, winters are mild (40-60°F), and rainfall averages 4.5 inches per year. The elevation of 2,400 feet provides slightly cooler temperatures than the valley floor.</p>
+            </div>
+            
+            <div className="bg-gray-50 rounded-lg p-6">
+              <h3 className="text-xl font-semibold mb-3">What are the property taxes in Aliante?</h3>
+              <p className="text-gray-700">Property taxes in Aliante are approximately 1.1% of the assessed value annually. For a $450,000 home, this equals about $4,950 per year. Nevada has no state income tax, making it attractive for retirees and investors.</p>
+            </div>
+            
+            <div className="bg-gray-50 rounded-lg p-6">
+              <h3 className="text-xl font-semibold mb-3">What shopping and dining options are available?</h3>
+              <p className="text-gray-700">Aliante offers Aliante Marketplace with major retailers, Aliante Casino + Hotel with restaurants, and numerous local dining options. The neighborhood is also close to Centennial Hills shopping centers and the Las Vegas Premium Outlets (20 minutes away).</p>
+            </div>
+            
+            <div className="bg-gray-50 rounded-lg p-6">
+              <h3 className="text-xl font-semibold mb-3">What is the demographic makeup of Aliante?</h3>
+              <p className="text-gray-700">Aliante has a diverse population with a median age of 38. The neighborhood attracts families, professionals, and retirees. The area has a strong sense of community with 95% owner-occupancy rate and active neighborhood associations.</p>
+            </div>
+            
+            <div className="bg-gray-50 rounded-lg p-6">
+              <h3 className="text-xl font-semibold mb-3">What utilities and services are available?</h3>
+              <p className="text-gray-700">Aliante has full utility services including NV Energy (electricity), Southwest Gas (natural gas), Las Vegas Valley Water District, and Republic Services (trash/recycling). Internet providers include Cox Communications and CenturyLink with fiber optic options available.</p>
+            </div>
+            
+            <div className="bg-gray-50 rounded-lg p-6">
+              <h3 className="text-xl font-semibold mb-3">What makes Aliante unique compared to other North Las Vegas neighborhoods?</h3>
+              <p className="text-gray-700">Aliante stands out for its master-planned community design, excellent schools, family-friendly atmosphere, and convenient location. The neighborhood offers a perfect balance of suburban tranquility with easy access to major employment centers, shopping, and entertainment.</p>
             </div>
           </div>
         </div>
