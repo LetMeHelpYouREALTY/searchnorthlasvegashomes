@@ -1,4 +1,5 @@
 import { Metadata } from "next"
+import Link from "next/link"
 
 export const metadata: Metadata = {
   title: "Sitemap | Search North Las Vegas Homes",
@@ -31,27 +32,27 @@ export default function SitemapPage() {
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Main Pages</h2>
               <ul className="space-y-3">
                 <li>
-                  <a href="/" className="text-blue-600 hover:text-blue-800 font-medium">Home</a>
+                  <Link href="/" className="text-blue-600 hover:text-blue-800 font-medium">Home</Link>
                   <p className="text-gray-600 text-sm">Main landing page with property search and featured content</p>
                 </li>
                 <li>
-                  <a href="/search" className="text-blue-600 hover:text-blue-800 font-medium">Property Search</a>
+                  <Link href="/search" className="text-blue-600 hover:text-blue-800 font-medium">Property Search</Link>
                   <p className="text-gray-600 text-sm">Advanced property search with filters and listings</p>
                 </li>
                 <li>
-                  <a href="/valuation" className="text-blue-600 hover:text-blue-800 font-medium">Home Valuation</a>
+                  <Link href="/valuation" className="text-blue-600 hover:text-blue-800 font-medium">Home Valuation</Link>
                   <p className="text-gray-600 text-sm">Get instant home valuations and market analysis</p>
                 </li>
                 <li>
-                  <a href="/about" className="text-blue-600 hover:text-blue-800 font-medium">About Us</a>
+                  <Link href="/about" className="text-blue-600 hover:text-blue-800 font-medium">About Us</Link>
                   <p className="text-gray-600 text-sm">Learn about our team and mission</p>
                 </li>
                 <li>
-                  <a href="/contact" className="text-blue-600 hover:text-blue-800 font-medium">Contact</a>
+                  <Link href="/contact" className="text-blue-600 hover:text-blue-800 font-medium">Contact</Link>
                   <p className="text-gray-600 text-sm">Get in touch with our real estate experts</p>
                 </li>
                 <li>
-                  <a href="/services" className="text-blue-600 hover:text-blue-800 font-medium">Services</a>
+                  <Link href="/services" className="text-blue-600 hover:text-blue-800 font-medium">Services</Link>
                   <p className="text-gray-600 text-sm">Comprehensive real estate services for buyers and sellers</p>
                 </li>
               </ul>
@@ -62,27 +63,27 @@ export default function SitemapPage() {
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Neighborhoods</h2>
               <ul className="space-y-3">
                 <li>
-                  <a href="/neighborhoods" className="text-blue-600 hover:text-blue-800 font-medium">All Neighborhoods</a>
+                  <Link href="/neighborhoods" className="text-blue-600 hover:text-blue-800 font-medium">All Neighborhoods</Link>
                   <p className="text-gray-600 text-sm">Overview of all North Las Vegas neighborhoods</p>
                 </li>
                 <li>
-                  <a href="/neighborhoods/aliante" className="text-blue-600 hover:text-blue-800 font-medium">Aliante</a>
+                  <Link href="/neighborhoods/aliante" className="text-blue-600 hover:text-blue-800 font-medium">Aliante</Link>
                   <p className="text-gray-600 text-sm">Master-planned community with golf course and amenities</p>
                 </li>
                 <li>
-                  <a href="/neighborhoods/centennial-hills" className="text-blue-600 hover:text-blue-800 font-medium">Centennial Hills</a>
+                  <Link href="/neighborhoods/centennial-hills" className="text-blue-600 hover:text-blue-800 font-medium">Centennial Hills</Link>
                   <p className="text-gray-600 text-sm">Family-friendly neighborhood with mountain views</p>
                 </li>
                 <li>
-                  <a href="/neighborhoods/skye-canyon" className="text-blue-600 hover:text-blue-800 font-medium">Skye Canyon</a>
+                  <Link href="/neighborhoods/skye-canyon" className="text-blue-600 hover:text-blue-800 font-medium">Skye Canyon</Link>
                   <p className="text-gray-600 text-sm">Modern community with outdoor recreation focus</p>
                 </li>
                 <li>
-                  <a href="/neighborhoods/sunrise-manor" className="text-blue-600 hover:text-blue-800 font-medium">Sunrise Manor</a>
+                  <Link href="/neighborhoods/sunrise-manor" className="text-blue-600 hover:text-blue-800 font-medium">Sunrise Manor</Link>
                   <p className="text-gray-600 text-sm">Established neighborhood with excellent value</p>
                 </li>
                 <li>
-                  <a href="/neighborhoods/winchester" className="text-blue-600 hover:text-blue-800 font-medium">Winchester</a>
+                  <Link href="/neighborhoods/winchester" className="text-blue-600 hover:text-blue-800 font-medium">Winchester</Link>
                   <p className="text-gray-600 text-sm">Central location with excellent accessibility</p>
                 </li>
               </ul>
@@ -93,27 +94,27 @@ export default function SitemapPage() {
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Real Estate Tools</h2>
               <ul className="space-y-3">
                 <li>
-                  <a href="/tools/mortgage-calculator" className="text-blue-600 hover:text-blue-800 font-medium">Mortgage Calculator</a>
+                  <Link href="/tools/mortgage-calculator" className="text-blue-600 hover:text-blue-800 font-medium">Mortgage Calculator</Link>
                   <p className="text-gray-600 text-sm">Calculate monthly mortgage payments</p>
                 </li>
                 <li>
-                  <a href="/tools/roi-calculator" className="text-blue-600 hover:text-blue-800 font-medium">ROI Calculator</a>
+                  <Link href="/tools/roi-calculator" className="text-blue-600 hover:text-blue-800 font-medium">ROI Calculator</Link>
                   <p className="text-gray-600 text-sm">Calculate return on investment for real estate</p>
                 </li>
                 <li>
-                  <a href="/tools/affordability" className="text-blue-600 hover:text-blue-800 font-medium">Affordability Calculator</a>
+                  <Link href="/tools/affordability" className="text-blue-600 hover:text-blue-800 font-medium">Affordability Calculator</Link>
                   <p className="text-gray-600 text-sm">Determine how much home you can afford</p>
                 </li>
                 <li>
-                  <a href="/tools/closing-costs" className="text-blue-600 hover:text-blue-800 font-medium">Closing Costs Calculator</a>
+                  <Link href="/tools/closing-costs" className="text-blue-600 hover:text-blue-800 font-medium">Closing Costs Calculator</Link>
                   <p className="text-gray-600 text-sm">Estimate closing costs for your home purchase</p>
                 </li>
                 <li>
-                  <a href="/tools/refinance" className="text-blue-600 hover:text-blue-800 font-medium">Refinance Calculator</a>
+                  <Link href="/tools/refinance" className="text-blue-600 hover:text-blue-800 font-medium">Refinance Calculator</Link>
                   <p className="text-gray-600 text-sm">Calculate refinancing options and savings</p>
                 </li>
                 <li>
-                  <a href="/tools/rent-vs-buy" className="text-blue-600 hover:text-blue-800 font-medium">Rent vs Buy Calculator</a>
+                  <Link href="/tools/rent-vs-buy" className="text-blue-600 hover:text-blue-800 font-medium">Rent vs Buy Calculator</Link>
                   <p className="text-gray-600 text-sm">Compare renting vs buying costs</p>
                 </li>
               </ul>
@@ -124,27 +125,27 @@ export default function SitemapPage() {
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Resources & Guides</h2>
               <ul className="space-y-3">
                 <li>
-                  <a href="/guides" className="text-blue-600 hover:text-blue-800 font-medium">Buying & Selling Guides</a>
+                  <Link href="/guides" className="text-blue-600 hover:text-blue-800 font-medium">Buying & Selling Guides</Link>
                   <p className="text-gray-600 text-sm">Comprehensive guides for real estate transactions</p>
                 </li>
                 <li>
-                  <a href="/guides/first-time-buyer" className="text-blue-600 hover:text-blue-800 font-medium">First-Time Buyer Guide</a>
+                  <Link href="/guides/first-time-buyer" className="text-blue-600 hover:text-blue-800 font-medium">First-Time Buyer Guide</Link>
                   <p className="text-gray-600 text-sm">Essential information for first-time homebuyers</p>
                 </li>
                 <li>
-                  <a href="/guides/home-buying" className="text-blue-600 hover:text-blue-800 font-medium">Home Buying Guide</a>
+                  <Link href="/guides/home-buying" className="text-blue-600 hover:text-blue-800 font-medium">Home Buying Guide</Link>
                   <p className="text-gray-600 text-sm">Step-by-step home buying process</p>
                 </li>
                 <li>
-                  <a href="/guides/selling-strategy" className="text-blue-600 hover:text-blue-800 font-medium">Selling Strategy Guide</a>
+                  <Link href="/guides/selling-strategy" className="text-blue-600 hover:text-blue-800 font-medium">Selling Strategy Guide</Link>
                   <p className="text-gray-600 text-sm">Maximize your home's value when selling</p>
                 </li>
                 <li>
-                  <a href="/guides/home-staging" className="text-blue-600 hover:text-blue-800 font-medium">Home Staging Guide</a>
+                  <Link href="/guides/home-staging" className="text-blue-600 hover:text-blue-800 font-medium">Home Staging Guide</Link>
                   <p className="text-gray-600 text-sm">Tips for staging your home for sale</p>
                 </li>
                 <li>
-                  <a href="/guides/investment" className="text-blue-600 hover:text-blue-800 font-medium">Investment Guide</a>
+                  <Link href="/guides/investment" className="text-blue-600 hover:text-blue-800 font-medium">Investment Guide</Link>
                   <p className="text-gray-600 text-sm">Real estate investment strategies and tips</p>
                 </li>
               </ul>
@@ -155,27 +156,27 @@ export default function SitemapPage() {
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Market Information</h2>
               <ul className="space-y-3">
                 <li>
-                  <a href="/market-insights" className="text-blue-600 hover:text-blue-800 font-medium">Market Insights</a>
+                  <Link href="/market-insights" className="text-blue-600 hover:text-blue-800 font-medium">Market Insights</Link>
                   <p className="text-gray-600 text-sm">Current market trends and analysis</p>
                 </li>
                 <li>
-                  <a href="/reports" className="text-blue-600 hover:text-blue-800 font-medium">Market Reports</a>
+                  <Link href="/reports" className="text-blue-600 hover:text-blue-800 font-medium">Market Reports</Link>
                   <p className="text-gray-600 text-sm">Detailed market reports and statistics</p>
                 </li>
                 <li>
-                  <a href="/blog" className="text-blue-600 hover:text-blue-800 font-medium">Blog</a>
+                  <Link href="/blog" className="text-blue-600 hover:text-blue-800 font-medium">Blog</Link>
                   <p className="text-gray-600 text-sm">Real estate news, tips, and insights</p>
                 </li>
                 <li>
-                  <a href="/blog/market-update-2024" className="text-blue-600 hover:text-blue-800 font-medium">Market Update 2024</a>
+                  <Link href="/blog/market-update-2024" className="text-blue-600 hover:text-blue-800 font-medium">Market Update 2024</Link>
                   <p className="text-gray-600 text-sm">Latest market trends and predictions</p>
                 </li>
                 <li>
-                  <a href="/videos" className="text-blue-600 hover:text-blue-800 font-medium">Videos</a>
+                  <Link href="/videos" className="text-blue-600 hover:text-blue-800 font-medium">Videos</Link>
                   <p className="text-gray-600 text-sm">Educational and informative real estate videos</p>
                 </li>
                 <li>
-                  <a href="/webinars" className="text-blue-600 hover:text-blue-800 font-medium">Webinars</a>
+                  <Link href="/webinars" className="text-blue-600 hover:text-blue-800 font-medium">Webinars</Link>
                   <p className="text-gray-600 text-sm">Live and recorded real estate webinars</p>
                 </li>
               </ul>
@@ -186,19 +187,19 @@ export default function SitemapPage() {
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Additional Resources</h2>
               <ul className="space-y-3">
                 <li>
-                  <a href="/resources" className="text-blue-600 hover:text-blue-800 font-medium">Resources</a>
+                  <Link href="/resources" className="text-blue-600 hover:text-blue-800 font-medium">Resources</Link>
                   <p className="text-gray-600 text-sm">Comprehensive resource library</p>
                 </li>
                 <li>
-                  <a href="/lenders" className="text-blue-600 hover:text-blue-800 font-medium">Lenders</a>
+                  <Link href="/lenders" className="text-blue-600 hover:text-blue-800 font-medium">Lenders</Link>
                   <p className="text-gray-600 text-sm">Recommended mortgage lenders and financing options</p>
                 </li>
                 <li>
-                  <a href="/legal/real-estate-law" className="text-blue-600 hover:text-blue-800 font-medium">Real Estate Law</a>
+                  <Link href="/legal/real-estate-law" className="text-blue-600 hover:text-blue-800 font-medium">Real Estate Law</Link>
                   <p className="text-gray-600 text-sm">Legal information for real estate transactions</p>
                 </li>
                 <li>
-                  <a href="/tax/benefits" className="text-blue-600 hover:text-blue-800 font-medium">Tax Benefits</a>
+                  <Link href="/tax/benefits" className="text-blue-600 hover:text-blue-800 font-medium">Tax Benefits</Link>
                   <p className="text-gray-600 text-sm">Tax benefits and deductions for homeowners</p>
                 </li>
               </ul>
