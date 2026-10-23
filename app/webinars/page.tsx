@@ -460,7 +460,7 @@ export default function WebinarsPage() {
               <h3 className="text-xl font-semibold mb-2 text-gray-900">Dr. Jan Duffy</h3>
               <p className="text-blue-600 mb-2">Principal Broker & Market Analyst</p>
               <p className="text-gray-600 text-sm">
-                Expert in North Las Vegas market trends with over 15 years of experience in residential and investment real estate.
+                Expert in North Las Vegas market trends, in real estate since 1983, with experience in residential and investment real estate.
               </p>
             </div>
 
