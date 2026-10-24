@@ -1,5 +1,6 @@
 import { Metadata } from "next"
 import { CalendlyInline } from "../../components/CalendlyInline"
+import { calendlyUrl } from "../../lib/calendly"
 
 export const metadata: Metadata = {
   title: "Contact Dr. Jan Duffy",
@@ -8,7 +9,6 @@ export const metadata: Metadata = {
 }
 
 const BUYER_CONSULT_URL = "https://calendly.com/drjanduffy/buyer-consultation-30-min"
-const LISTING_CONSULT_URL = "https://calendly.com/drjanduffy/listing-consultation"
 
 export default function ContactPage() {
   return (
@@ -33,7 +33,7 @@ export default function ContactPage() {
                 30 minutes by phone or Zoom. We cover what you want, what is selling in your target
                 neighborhood this week, and your clear next step.
               </p>
-              <CalendlyInline url={`${BUYER_CONSULT_URL}?hide_gdpr_banner=1`} />
+              <CalendlyInline url={calendlyUrl("buyer", "inline", "/contact")} />
               <p className="text-sm text-gray-500 mt-3">
                 Calendar not loading?{" "}
                 <a href={BUYER_CONSULT_URL} className="text-blue-600 underline" target="_blank" rel="noopener noreferrer">
@@ -50,7 +50,7 @@ export default function ContactPage() {
                   Get your home&apos;s true market value with recent comparable sales from your subdivision.
                 </p>
                 <a
-                  href={LISTING_CONSULT_URL}
+                  href={calendlyUrl("listing", "button", "/contact")}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-5 py-3 rounded-md"

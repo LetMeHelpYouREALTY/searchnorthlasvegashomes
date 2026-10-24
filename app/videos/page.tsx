@@ -1,4 +1,6 @@
 import { Metadata } from "next"
+import { CalendlyInline } from "../../components/CalendlyInline"
+import { calendlyUrl } from "../../lib/calendly"
 import { Button } from "../../components/Button/Button"
 
 export const metadata: Metadata = {
@@ -412,74 +414,9 @@ export default function VideosPage() {
             Need a specific property tour or educational video? Let us know what you'd like to see!
           </p>
           
-          <div className="bg-gray-50 rounded-lg p-8">
-            <form className="space-y-6">
-              <div className="grid md:grid-cols-2 gap-6">
-                <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
-                    Full Name
-                  </label>
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    placeholder="Enter your full name"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                    suppressHydrationWarning
-                  />
-                </div>
-                <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
-                    Email Address
-                  </label>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    placeholder="Enter your email"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                    suppressHydrationWarning
-                  />
-                </div>
-              </div>
-              
-              <div>
-                <label htmlFor="video-type" className="block text-sm font-medium text-gray-700 mb-2">
-                  Video Type
-                </label>
-                <select
-                  id="video-type"
-                  name="video-type"
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                  suppressHydrationWarning
-                >
-                  <option value="">Select video type</option>
-                  <option value="property-tour">Property Tour</option>
-                  <option value="neighborhood-guide">Neighborhood Guide</option>
-                  <option value="educational">Educational Content</option>
-                  <option value="market-update">Market Update</option>
-                  <option value="custom">Custom Request</option>
-                </select>
-              </div>
-              
-              <div>
-                <label htmlFor="description" className="block text-sm font-medium text-gray-700 mb-2">
-                  Video Description
-                </label>
-                <textarea
-                  id="description"
-                  name="description"
-                  rows={4}
-                  placeholder="Describe the specific video content you'd like to see..."
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                  suppressHydrationWarning
-                ></textarea>
-              </div>
-              
-              <Button type="submit" className="w-full bg-blue-600 text-white hover:bg-blue-700 py-3">
-                Request Video
-              </Button>
-            </form>
+          <div>
+            <p className="text-gray-600 mb-4 text-center">Pick a time for a live or video tour of the home you want to see.</p>
+            <CalendlyInline url={calendlyUrl("showing", "inline", "/videos")} />
           </div>
         </div>
       </section>

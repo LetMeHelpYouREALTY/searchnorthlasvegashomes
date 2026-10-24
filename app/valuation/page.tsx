@@ -1,4 +1,6 @@
 import { Metadata } from "next"
+import { CalendlyInline } from "../../components/CalendlyInline"
+import { calendlyUrl } from "../../lib/calendly"
 import { Button } from "components/Button/Button"
 
 export const metadata: Metadata = {
@@ -31,141 +33,18 @@ export default function ValuationPage() {
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Instant Property Valuation
+              Your Home's Value from Recent Sales
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Enter your property address to get a comprehensive valuation report with market insights, 
-              comparable sales, and neighborhood analysis.
+              Book a listing consultation and get your value from recent comparable sales in your
+              subdivision, not an automated estimate.
             </p>
           </div>
 
           {/* Valuation Form */}
-          <div className="bg-white rounded-lg shadow-lg border border-gray-200 p-8">
-            <form className="space-y-6">
-              <div>
-                <label htmlFor="property-address" className="block text-sm font-medium text-gray-700 mb-2">
-                  Property Address
-                </label>
-                <div className="relative">
-                  <input
-                    type="text"
-                    id="property-address"
-                    name="property-address"
-                    placeholder="Enter your property address"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent text-lg"
-                    aria-describedby="address-autocomplete"
-                    suppressHydrationWarning
-                  />
-                  <div id="address-autocomplete" className="absolute z-50 w-full mt-1 bg-white border border-gray-300 rounded-md shadow-lg hidden">
-                    {/* Percy.ai HVS-Autocomplete will be loaded here */}
-                  </div>
-                </div>
-              </div>
-
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div>
-                  <label htmlFor="property-type" className="block text-sm font-medium text-gray-700 mb-2">
-                    Property Type
-                  </label>
-                  <select
-                    id="property-type"
-                    name="property-type"
-                    aria-label="Select property type"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                    suppressHydrationWarning
-                  >
-                    <option value="">Select Property Type</option>
-                    <option value="single-family">Single Family Home</option>
-                    <option value="townhouse">Townhouse</option>
-                    <option value="condo">Condo</option>
-                    <option value="multi-family">Multi-Family</option>
-                  </select>
-                </div>
-
-                <div>
-                  <label htmlFor="square-feet" className="block text-sm font-medium text-gray-700 mb-2">
-                    Square Footage
-                  </label>
-                  <input
-                    type="number"
-                    id="square-feet"
-                    name="square-feet"
-                    placeholder="e.g., 1,500"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                    suppressHydrationWarning
-                  />
-                </div>
-              </div>
-
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <div>
-                  <label htmlFor="bedrooms" className="block text-sm font-medium text-gray-700 mb-2">
-                    Bedrooms
-                  </label>
-                  <select
-                    id="bedrooms"
-                    name="bedrooms"
-                    aria-label="Select number of bedrooms"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                    suppressHydrationWarning
-                  >
-                    <option value="">Select</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5+</option>
-                  </select>
-                </div>
-
-                <div>
-                  <label htmlFor="bathrooms" className="block text-sm font-medium text-gray-700 mb-2">
-                    Bathrooms
-                  </label>
-                  <select
-                    id="bathrooms"
-                    name="bathrooms"
-                    aria-label="Select number of bathrooms"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                    suppressHydrationWarning
-                  >
-                    <option value="">Select</option>
-                    <option value="1">1</option>
-                    <option value="1.5">1.5</option>
-                    <option value="2">2</option>
-                    <option value="2.5">2.5</option>
-                    <option value="3">3</option>
-                    <option value="3.5">3.5</option>
-                    <option value="4">4+</option>
-                  </select>
-                </div>
-
-                <div>
-                  <label htmlFor="year-built" className="block text-sm font-medium text-gray-700 mb-2">
-                    Year Built
-                  </label>
-                  <input
-                    type="number"
-                    id="year-built"
-                    name="year-built"
-                    placeholder="e.g., 2010"
-                    min="1900"
-                    max={new Date().getFullYear()}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                    suppressHydrationWarning
-                  />
-                </div>
-              </div>
-
-              <div className="pt-4">
-                                        <Button
-                          type="submit"
-                          className="w-full bg-blue-600 hover:bg-blue-700 text-white py-4 text-lg font-semibold"
-                        >
-                  Get Instant Valuation
-                </Button>
-              </div>
-            </form>
+          <div>
+            <p className="text-gray-600 mb-4 text-center">Pick a time. Add your address in the booking notes so the comps are ready when we talk.</p>
+            <CalendlyInline url={calendlyUrl("listing", "inline", "/valuation")} />
           </div>
         </div>
       </section>

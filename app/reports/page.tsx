@@ -1,4 +1,6 @@
 import { Metadata } from "next"
+import { CalendlyInline } from "../../components/CalendlyInline"
+import { calendlyUrl } from "../../lib/calendly"
 import { Button } from "../../components/Button/Button"
 
 export const metadata: Metadata = {
@@ -294,74 +296,9 @@ export default function ReportsPage() {
             Need a specific report or analysis? Our team can create customized reports tailored to your unique needs.
           </p>
           
-          <div className="bg-gray-50 rounded-lg p-8">
-            <form className="space-y-6">
-              <div className="grid md:grid-cols-2 gap-6">
-                <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
-                    Full Name
-                  </label>
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    placeholder="Enter your full name"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                    suppressHydrationWarning
-                  />
-                </div>
-                <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
-                    Email Address
-                  </label>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    placeholder="Enter your email"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                    suppressHydrationWarning
-                  />
-                </div>
-              </div>
-              
-              <div>
-                <label htmlFor="report-type" className="block text-sm font-medium text-gray-700 mb-2">
-                  Report Type
-                </label>
-                <select
-                  id="report-type"
-                  name="report-type"
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                  suppressHydrationWarning
-                >
-                  <option value="">Select a report type</option>
-                  <option value="market-analysis">Market Analysis</option>
-                  <option value="property-valuation">Property Valuation</option>
-                  <option value="investment-analysis">Investment Analysis</option>
-                  <option value="neighborhood-report">Neighborhood Report</option>
-                  <option value="custom">Custom Report</option>
-                </select>
-              </div>
-              
-              <div>
-                <label htmlFor="description" className="block text-sm font-medium text-gray-700 mb-2">
-                  Report Description
-                </label>
-                <textarea
-                  id="description"
-                  name="description"
-                  rows={4}
-                  placeholder="Describe the specific information you need in your report..."
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                  suppressHydrationWarning
-                ></textarea>
-              </div>
-              
-              <Button type="submit" className="w-full bg-blue-600 text-white hover:bg-blue-700 py-3">
-                Request Custom Report
-              </Button>
-            </form>
+          <div>
+            <p className="text-gray-600 mb-4 text-center">Book a 15-minute call and tell me which numbers you need. I build the report from current MLS data.</p>
+            <CalendlyInline url={calendlyUrl("strategy", "inline", "/reports")} />
           </div>
         </div>
       </section>
