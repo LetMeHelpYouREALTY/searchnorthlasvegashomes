@@ -506,7 +506,7 @@ export default function HomeStagingGuidePage() {
                 Understanding what North Las Vegas buyers are looking for can help you stage more effectively.
               </p>
               <div className="space-y-2 text-gray-600">
-                <p>• <strong>Family-Friendly:</strong> Safe, spacious layouts</p>
+                <p>• <strong>Flexible Space:</strong> Open, spacious layouts</p>
                 <p>• <strong>Modern Amenities:</strong> Updated kitchens and baths</p>
                 <p>• <strong>Outdoor Living:</strong> Patios, yards, and outdoor spaces</p>
                 <p>• <strong>Energy Efficiency:</strong> Smart home features</p>

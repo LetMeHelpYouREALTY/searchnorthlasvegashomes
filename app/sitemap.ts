@@ -1,9 +1,17 @@
 import { MetadataRoute } from 'next'
 
+import { NEIGHBORHOODS } from 'lib/neighborhoods'
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://searchnorthlasvegashomes.com'
   
   return [
+    ...NEIGHBORHOODS.map((n) => ({
+      url: `${baseUrl}/neighborhoods/${n.slug}`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.7,
+    })),
     {
       url: baseUrl,
       lastModified: new Date(),
@@ -27,36 +35,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/neighborhoods/aliante`,
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/neighborhoods/centennial-hills`,
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/neighborhoods/skye-canyon`,
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/neighborhoods/sunrise-manor`,
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/neighborhoods/winchester`,
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.7,
     },
     {
       url: `${baseUrl}/tools/mortgage-calculator`,

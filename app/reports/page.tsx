@@ -1,4 +1,6 @@
 import { Metadata } from "next"
+import { NEIGHBORHOODS } from "lib/neighborhoods"
+
 import { Button } from "../../components/Button/Button"
 
 export const metadata: Metadata = {
@@ -176,59 +178,22 @@ export default function ReportsPage() {
           </h2>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="text-xl font-semibold mb-4 text-blue-600">
-                Aliante Neighborhood Report
-              </h3>
-              <p className="text-gray-600 mb-4">
-                Comprehensive analysis of the Aliante master-planned community, including market trends, amenities, and investment potential.
-              </p>
-              <div className="space-y-2 text-gray-600 mb-6">
-                <p>• Median home price: $380,000</p>
-                <p>• Average days on market: 42</p>
-                <p>• Annual appreciation: 10%</p>
-                <p>• School ratings: 8/10</p>
+            {NEIGHBORHOODS.slice(0, 3).map((n) => (
+              <div key={n.slug} className="bg-gray-50 rounded-lg p-6">
+                <h3 className="text-xl font-semibold mb-4 text-blue-600">{n.name} Neighborhood Report</h3>
+                <p className="text-gray-600 mb-4">{n.summary}</p>
+                <div className="space-y-2 text-gray-600 mb-6">
+                  {n.facts.slice(0, 3).map((f) => (
+                    <p key={f.label}>
+                      • {f.label}: {f.value}
+                    </p>
+                  ))}
+                </div>
+                <Button href={`/neighborhoods/${n.slug}`} className="w-full">
+                  View Guide
+                </Button>
               </div>
-              <Button href="/neighborhoods/aliante" className="w-full bg-blue-600 text-white hover:bg-blue-700">
-                View Report
-              </Button>
-            </div>
-
-            <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="text-xl font-semibold mb-4 text-green-600">
-                Centennial Hills Report
-              </h3>
-              <p className="text-gray-600 mb-4">
-                Detailed analysis of Centennial Hills, including family-friendly amenities, mountain views, and market performance.
-              </p>
-              <div className="space-y-2 text-gray-600 mb-6">
-                <p>• Median home price: $420,000</p>
-                <p>• Average days on market: 38</p>
-                <p>• Annual appreciation: 12%</p>
-                <p>• Family-friendly score: 9/10</p>
-              </div>
-              <Button href="/neighborhoods/centennial-hills" className="w-full bg-green-600 text-white hover:bg-green-700">
-                View Report
-              </Button>
-            </div>
-
-            <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="text-xl font-semibold mb-4 text-purple-600">
-                Skye Canyon Report
-              </h3>
-              <p className="text-gray-600 mb-4">
-                Analysis of the new Skye Canyon development, including modern amenities, growth potential, and investment opportunities.
-              </p>
-              <div className="space-y-2 text-gray-600 mb-6">
-                <p>• Median home price: $450,000</p>
-                <p>• Average days on market: 35</p>
-                <p>• Annual appreciation: 15%</p>
-                <p>• Growth potential: High</p>
-              </div>
-              <Button href="/neighborhoods/skye-canyon" className="w-full bg-purple-600 text-white hover:bg-purple-700">
-                View Report
-              </Button>
-            </div>
+            ))}
           </div>
         </div>
       </section>

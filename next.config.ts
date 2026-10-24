@@ -10,6 +10,12 @@ const config: NextConfig = {
       fullUrl: true,
     },
   },
+  redirects: async () =>
+    ["centennial-hills", "skye-canyon", "sunrise-manor", "winchester"].map((slug) => ({
+      source: `/neighborhoods/${slug}`,
+      destination: "/neighborhoods",
+      permanent: true,
+    })),
   rewrites: async () => [
     { source: "/healthz", destination: "/api/health" },
     { source: "/api/healthz", destination: "/api/health" },

@@ -1,12 +1,143 @@
 @import 'tailwindcss';
 
 /*
+  Luxury theme: deep navy + champagne gold on warm ivory.
+  The blue / indigo / sky scales are remapped so every existing page picks up
+  the palette without per-page edits: light shades (50-500) become champagne
+  gold, dark shades (600-950) become navy.
+*/
+@theme {
+  --font-sans: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Cormorant Garamond", ui-serif, Georgia, serif;
+
+  --color-navy-50: #f2f4f8;
+  --color-navy-100: #e1e6ef;
+  --color-navy-600: #22395e;
+  --color-navy-700: #1a2e4d;
+  --color-navy-800: #13233d;
+  --color-navy-900: #0e1a2e;
+  --color-navy-950: #0a1220;
+
+  --color-gold-50: #faf6ee;
+  --color-gold-100: #f3eada;
+  --color-gold-200: #e6d5b3;
+  --color-gold-300: #d4bc8a;
+  --color-gold-400: #c2a46b;
+  --color-gold-500: #a88a52;
+  --color-gold-600: #8c7243;
+  --color-gold-700: #6f5a35;
+
+  --color-ivory: #faf8f4;
+
+  --color-blue-50: var(--color-gold-50);
+  --color-blue-100: var(--color-gold-100);
+  --color-blue-200: var(--color-gold-200);
+  --color-blue-300: var(--color-gold-300);
+  --color-blue-400: var(--color-gold-400);
+  --color-blue-500: var(--color-gold-500);
+  --color-blue-600: var(--color-navy-600);
+  --color-blue-700: var(--color-navy-700);
+  --color-blue-800: var(--color-navy-800);
+  --color-blue-900: var(--color-navy-900);
+  --color-blue-950: var(--color-navy-950);
+
+  --color-indigo-50: var(--color-gold-50);
+  --color-indigo-100: var(--color-gold-100);
+  --color-indigo-200: var(--color-gold-200);
+  --color-indigo-300: var(--color-gold-300);
+  --color-indigo-400: var(--color-gold-400);
+  --color-indigo-500: var(--color-gold-500);
+  --color-indigo-600: var(--color-navy-600);
+  --color-indigo-700: var(--color-navy-700);
+  --color-indigo-800: var(--color-navy-800);
+  --color-indigo-900: var(--color-navy-900);
+  --color-indigo-950: var(--color-navy-950);
+
+  --color-sky-50: var(--color-gold-50);
+  --color-sky-100: var(--color-gold-100);
+  --color-sky-200: var(--color-gold-200);
+  --color-sky-300: var(--color-gold-300);
+  --color-sky-400: var(--color-gold-400);
+  --color-sky-500: var(--color-gold-500);
+  --color-sky-600: var(--color-navy-600);
+  --color-sky-700: var(--color-navy-700);
+  --color-sky-800: var(--color-navy-800);
+  --color-sky-900: var(--color-navy-900);
+
+
+  /* Fold leftover accent colours (icon circles, stat numbers) into the palette */
+  --color-green-50: var(--color-gold-50);
+  --color-green-100: var(--color-gold-100);
+  --color-green-200: var(--color-gold-200);
+  --color-green-500: var(--color-gold-500);
+  --color-green-600: var(--color-navy-600);
+  --color-green-700: var(--color-navy-700);
+  --color-green-800: var(--color-navy-800);
+  --color-emerald-50: var(--color-gold-50);
+  --color-emerald-100: var(--color-gold-100);
+  --color-emerald-200: var(--color-gold-200);
+  --color-emerald-500: var(--color-gold-500);
+  --color-emerald-600: var(--color-navy-600);
+  --color-emerald-700: var(--color-navy-700);
+  --color-emerald-800: var(--color-navy-800);
+  --color-teal-50: var(--color-gold-50);
+  --color-teal-100: var(--color-gold-100);
+  --color-teal-200: var(--color-gold-200);
+  --color-teal-500: var(--color-gold-500);
+  --color-teal-600: var(--color-navy-600);
+  --color-teal-700: var(--color-navy-700);
+  --color-teal-800: var(--color-navy-800);
+  --color-purple-50: var(--color-gold-50);
+  --color-purple-100: var(--color-gold-100);
+  --color-purple-200: var(--color-gold-200);
+  --color-purple-500: var(--color-gold-500);
+  --color-purple-600: var(--color-navy-600);
+  --color-purple-700: var(--color-navy-700);
+  --color-purple-800: var(--color-navy-800);
+  --color-violet-50: var(--color-gold-50);
+  --color-violet-100: var(--color-gold-100);
+  --color-violet-200: var(--color-gold-200);
+  --color-violet-500: var(--color-gold-500);
+  --color-violet-600: var(--color-navy-600);
+  --color-violet-700: var(--color-navy-700);
+  --color-violet-800: var(--color-navy-800);
+  --color-orange-50: var(--color-gold-50);
+  --color-orange-100: var(--color-gold-100);
+  --color-orange-200: var(--color-gold-200);
+  --color-orange-500: var(--color-gold-500);
+  --color-orange-600: var(--color-navy-600);
+  --color-orange-700: var(--color-navy-700);
+  --color-orange-800: var(--color-navy-800);
+  --color-amber-50: var(--color-gold-50);
+  --color-amber-100: var(--color-gold-100);
+  --color-amber-200: var(--color-gold-200);
+  --color-amber-500: var(--color-gold-500);
+  --color-amber-600: var(--color-navy-600);
+  --color-amber-700: var(--color-navy-700);
+  --color-amber-800: var(--color-navy-800);
+  --color-pink-50: var(--color-gold-50);
+  --color-pink-100: var(--color-gold-100);
+  --color-pink-200: var(--color-gold-200);
+  --color-pink-500: var(--color-gold-500);
+  --color-pink-600: var(--color-navy-600);
+  --color-pink-700: var(--color-navy-700);
+  --color-pink-800: var(--color-navy-800);
+
+  /* Warm the neutral page background */
+  --color-gray-50: var(--color-ivory);
+
+  /* Tailored, not bubbly: tighter corners everywhere except pills/circles */
+  --radius-sm: 0.125rem;
+  --radius-md: 0.125rem;
+  --radius-lg: 0.1875rem;
+  --radius-xl: 0.25rem;
+  --radius-2xl: 0.25rem;
+}
+
+/*
   The default border color has changed to `currentColor` in Tailwind CSS v4,
   so we've added these compatibility styles to make sure everything still
   looks the same as it did with Tailwind CSS v3.
-
-  If we ever want to remove these styles, we need to add an explicit border
-  color utility to any element that depends on these defaults.
 */
 @layer base {
   *,
@@ -15,5 +146,52 @@
   ::backdrop,
   ::file-selector-button {
     border-color: var(--color-gray-200, currentColor);
+  }
+
+  body {
+    background-color: var(--color-ivory);
+    color: var(--color-gray-800);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-serif);
+    font-weight: 600;
+    letter-spacing: -0.005em;
+    line-height: 1.15;
+  }
+
+  h4,
+  h5,
+  h6 {
+    letter-spacing: 0.01em;
+  }
+
+  ::selection {
+    background-color: var(--color-gold-200);
+    color: var(--color-navy-900);
+  }
+}
+
+@layer components {
+  /* Small uppercase label above section headings */
+  .eyebrow {
+    display: inline-block;
+    font-family: var(--font-sans);
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--color-gold-600);
+  }
+
+  /* Thin gold rule under headings */
+  .gold-rule {
+    display: block;
+    width: 3.5rem;
+    height: 1px;
+    background-color: var(--color-gold-400);
   }
 }

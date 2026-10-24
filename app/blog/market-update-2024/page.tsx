@@ -1,4 +1,5 @@
 import { Metadata } from "next"
+import Link from "next/link"
 import { Button } from "../../../components/Button/Button"
 
 export const metadata: Metadata = {
@@ -86,8 +87,8 @@ export default function MarketUpdate2024Page() {
               
               <ul className="space-y-3 text-gray-700 mb-8">
                 <li><strong>Skye Canyon:</strong> $450,000 - $650,000 (Newer homes, premium amenities)</li>
-                <li><strong>Centennial Hills:</strong> $380,000 - $550,000 (Established community, good schools)</li>
-                <li><strong>Aliante:</strong> $350,000 - $500,000 (Family-friendly, established)</li>
+                <li><strong>Centennial Hills:</strong> $380,000 - $550,000 (northwest valley, mountain views)</li>
+                <li><strong>Aliante:</strong> $350,000 - $500,000 (golf club, nature park, 55+ village)</li>
                 <li><strong>Sunrise Manor:</strong> $320,000 - $450,000 (Affordable, good value)</li>
                 <li><strong>Winchester:</strong> $380,000 - $520,000 (Central location, convenience)</li>
               </ul>
@@ -253,9 +254,9 @@ export default function MarketUpdate2024Page() {
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-3">
-                  <a href="/guides/first-time-buyer" className="text-indigo-600 hover:text-indigo-800">
+                  <Link href="/guides/first-time-buyer" className="text-indigo-600 hover:text-indigo-800">
                     First-Time Homebuyer Guide 2024
-                  </a>
+                  </Link>
                 </h3>
                 <p className="text-gray-600 mb-4">
                   Complete guide for first-time buyers in North Las Vegas, including down payment assistance and loan programs.
@@ -266,9 +267,9 @@ export default function MarketUpdate2024Page() {
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-3">
-                  <a href="/neighborhoods/aliante" className="text-indigo-600 hover:text-indigo-800">
+                  <Link href="/neighborhoods/aliante" className="text-indigo-600 hover:text-indigo-800">
                     Aliante Neighborhood Spotlight
-                  </a>
+                  </Link>
                 </h3>
                 <p className="text-gray-600 mb-4">
                   Deep dive into one of North Las Vegas's most popular neighborhoods, including schools, amenities, and market data.
@@ -279,9 +280,9 @@ export default function MarketUpdate2024Page() {
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-3">
-                  <a href="/tools/rent-vs-buy" className="text-indigo-600 hover:text-indigo-800">
+                  <Link href="/tools/rent-vs-buy" className="text-indigo-600 hover:text-indigo-800">
                     Rent vs Buy Analysis
-                  </a>
+                  </Link>
                 </h3>
                 <p className="text-gray-600 mb-4">
                   Compare the costs of renting versus buying in North Las Vegas with our comprehensive calculator and analysis.

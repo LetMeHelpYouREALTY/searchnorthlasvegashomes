@@ -295,7 +295,7 @@ export default function InvestmentGuidePage() {
                     <li>• Affordable housing compared to Las Vegas</li>
                     <li>• New infrastructure development</li>
                     <li>• Proximity to major employers</li>
-                    <li>• Family-friendly communities</li>
+                    <li>• Master-planned communities with parks and trails</li>
                     <li>• Investment in public services</li>
                   </ul>
                 </div>
@@ -315,11 +315,11 @@ export default function InvestmentGuidePage() {
                   <div className="space-y-4">
                     <div className="border-l-4 border-indigo-500 pl-4">
                       <h5 className="font-semibold text-gray-900">Aliante</h5>
-                      <p className="text-sm text-gray-600">Master-planned community with excellent schools and amenities</p>
+                      <p className="text-sm text-gray-600">Master-planned community with golf, parks and trails</p>
                     </div>
                     <div className="border-l-4 border-blue-500 pl-4">
                       <h5 className="font-semibold text-gray-900">Centennial Hills</h5>
-                      <p className="text-sm text-gray-600">Family-friendly area with mountain views and good appreciation</p>
+                      <p className="text-sm text-gray-600">Northwest valley area with mountain views</p>
                     </div>
                     <div className="border-l-4 border-green-500 pl-4">
                       <h5 className="font-semibold text-gray-900">Skye Canyon</h5>
@@ -337,7 +337,7 @@ export default function InvestmentGuidePage() {
                     <li>• Strong job market proximity</li>
                     <li>• Good school districts</li>
                     <li>• Planned infrastructure improvements</li>
-                    <li>• Low crime rates</li>
+                    <li>• Proximity to job centers and the 215 Beltway</li>
                     <li>• Rental demand indicators</li>
                     <li>• Price appreciation potential</li>
                     <li>• Property tax rates</li>

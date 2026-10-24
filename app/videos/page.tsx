@@ -93,7 +93,7 @@ export default function VideosPage() {
                   Centennial Hills Neighborhood Tour
                 </h3>
                 <p className="text-gray-600 mb-4">
-                  Explore the family-friendly Centennial Hills neighborhood with its amenities, schools, and mountain views.
+                  Tour the northwest valley with its parks, trails and mountain views.
                 </p>
                 <Button href="/videos/centennial-hills-neighborhood-tour" className="text-purple-600 hover:text-purple-700">
                   Watch Video →
