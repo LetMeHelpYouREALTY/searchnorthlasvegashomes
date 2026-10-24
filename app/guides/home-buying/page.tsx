@@ -398,7 +398,7 @@ export default function HomeBuyingGuidePage() {
               </p>
               <div className="space-y-2 text-gray-600">
                 <p>• <strong>Aliante:</strong> Master-planned community, great schools</p>
-                <p>• <strong>Centennial Hills:</strong> Family-friendly, mountain views</p>
+                <p>• <strong>Centennial Hills:</strong> Northwest valley, mountain views</p>
                 <p>• <strong>Skye Canyon:</strong> New development, modern amenities</p>
                 <p>• <strong>Downtown:</strong> Revitalization, investment potential</p>
               </div>

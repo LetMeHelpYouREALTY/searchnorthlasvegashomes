@@ -543,7 +543,7 @@ export default function SellingStrategyGuidePage() {
                 <p>• <strong>Affordable Housing:</strong> Attracts first-time buyers</p>
                 <p>• <strong>New Development:</strong> Increasing property values</p>
                 <p>• <strong>Proximity to Las Vegas:</strong> Commuter appeal</p>
-                <p>• <strong>Quality of Life:</strong> Family-friendly communities</p>
+                <p>• <strong>Amenities:</strong> Parks, trails and community centers</p>
                 <p>• <strong>Investment Potential:</strong> Attracts investors</p>
               </div>
             </div>

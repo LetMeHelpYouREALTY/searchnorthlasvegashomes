@@ -43,6 +43,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        {/* eslint-disable-next-line @next/next/no-page-custom-font */}
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600&display=swap"
+        />
         {/* RealScout Widget Script */}
         <script 
           src="https://em.realscout.com/widgets/realscout-web-components.umd.js" 
@@ -54,10 +61,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <style dangerouslySetInnerHTML={{
           __html: `
             realscout-office-listings { 
-              --rs-listing-divider-color: rgb(101, 141, 172); 
+              --rs-listing-divider-color: #c2a46b; 
               width: 100%; 
               margin: 2rem 0;
-              border-radius: 8px;
+              border-radius: 3px;
               overflow: hidden;
               box-shadow: 0 2px 8px rgba(0,0,0,0.08);
             }
@@ -71,7 +78,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           `
         }} />
       </head>
-      <body>
+      <body className="bg-ivory font-sans text-gray-800">
         <Navigation />
         <main>
           {children}

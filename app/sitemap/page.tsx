@@ -1,6 +1,8 @@
 import { Metadata } from "next"
 import Link from "next/link"
 
+import { NEIGHBORHOODS } from "lib/neighborhoods"
+
 export const metadata: Metadata = {
   title: "Sitemap | Search North Las Vegas Homes",
   description: "Complete sitemap of all pages on Search North Las Vegas Homes. Find property search tools, neighborhood guides, calculators, and real estate resources.",
@@ -66,26 +68,12 @@ export default function SitemapPage() {
                   <Link href="/neighborhoods" className="text-blue-600 hover:text-blue-800 font-medium">All Neighborhoods</Link>
                   <p className="text-gray-600 text-sm">Overview of all North Las Vegas neighborhoods</p>
                 </li>
-                <li>
-                  <Link href="/neighborhoods/aliante" className="text-blue-600 hover:text-blue-800 font-medium">Aliante</Link>
-                  <p className="text-gray-600 text-sm">Master-planned community with golf course and amenities</p>
-                </li>
-                <li>
-                  <Link href="/neighborhoods/centennial-hills" className="text-blue-600 hover:text-blue-800 font-medium">Centennial Hills</Link>
-                  <p className="text-gray-600 text-sm">Northwest valley neighborhood with mountain views</p>
-                </li>
-                <li>
-                  <Link href="/neighborhoods/skye-canyon" className="text-blue-600 hover:text-blue-800 font-medium">Skye Canyon</Link>
-                  <p className="text-gray-600 text-sm">Modern community with outdoor recreation focus</p>
-                </li>
-                <li>
-                  <Link href="/neighborhoods/sunrise-manor" className="text-blue-600 hover:text-blue-800 font-medium">Sunrise Manor</Link>
-                  <p className="text-gray-600 text-sm">East valley neighborhood with a range of price points</p>
-                </li>
-                <li>
-                  <Link href="/neighborhoods/winchester" className="text-blue-600 hover:text-blue-800 font-medium">Winchester</Link>
-                  <p className="text-gray-600 text-sm">Central location with excellent accessibility</p>
-                </li>
+                {NEIGHBORHOODS.map((n) => (
+                  <li key={n.slug}>
+                    <Link href={`/neighborhoods/${n.slug}`} className="text-blue-600 hover:text-blue-800 font-medium">{n.name}</Link>
+                    <p className="text-gray-600 text-sm">{n.tagline}</p>
+                  </li>
+                ))}
               </ul>
             </div>
 
