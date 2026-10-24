@@ -2,8 +2,8 @@ import { Metadata } from "next"
 import { Button } from "../../components/Button/Button"
 
 export const metadata: Metadata = {
-  title: "About Us",
-  description: "Learn about our team of North Las Vegas real estate experts and our commitment to helping you find your perfect home.",
+  title: "About Dr. Jan Duffy",
+  description: "Meet Dr. Jan Duffy, North Las Vegas REALTOR® with Berkshire Hathaway HomeServices Nevada Properties.",
 }
 
 export default function AboutPage() {
@@ -13,10 +13,10 @@ export default function AboutPage() {
       <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-20">
         <div className="container mx-auto px-4 max-w-6xl">
           <h1 className="text-4xl md:text-6xl font-bold text-center mb-6">
-            About Our Team
+            About Dr. Jan Duffy
           </h1>
           <p className="text-xl text-center max-w-3xl mx-auto">
-            Dedicated real estate professionals serving North Las Vegas with integrity, expertise, and personalized service.
+            North Las Vegas buyers and sellers, guided with real local numbers.
           </p>
         </div>
       </section>
@@ -68,43 +68,20 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Team Section */}
+      {/* Agent Section */}
       <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4 max-w-6xl">
+        <div className="container mx-auto px-4 max-w-3xl">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">
-            Meet Our Team
+            Your North Las Vegas Agent
           </h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-white rounded-lg shadow-md p-6 text-center">
-              <div className="w-32 h-32 bg-gray-300 rounded-full mx-auto mb-4"></div>
-              <h3 className="text-xl font-semibold mb-2 text-gray-900">
-                Sarah Johnson
-              </h3>
-              <p className="text-blue-600 font-medium mb-3">Lead Real Estate Agent</p>
-              <p className="text-gray-600">
-                Specializing in residential properties with over 10 years of experience in North Las Vegas.
-              </p>
-            </div>
-            <div className="bg-white rounded-lg shadow-md p-6 text-center">
-              <div className="w-32 h-32 bg-gray-300 rounded-full mx-auto mb-4"></div>
-              <h3 className="text-xl font-semibold mb-2 text-gray-900">
-                Michael Chen
-              </h3>
-              <p className="text-blue-600 font-medium mb-3">Property Valuations Expert</p>
-              <p className="text-gray-600">
-                Certified appraiser with deep knowledge of market trends and property valuations.
-              </p>
-            </div>
-            <div className="bg-white rounded-lg shadow-md p-6 text-center">
-              <div className="w-32 h-32 bg-gray-300 rounded-full mx-auto mb-4"></div>
-              <h3 className="text-xl font-semibold mb-2 text-gray-900">
-                Lisa Rodriguez
-              </h3>
-              <p className="text-blue-600 font-medium mb-3">Client Relations Manager</p>
-              <p className="text-gray-600">
-                Dedicated to providing exceptional customer service and support throughout your journey.
-              </p>
-            </div>
+          <div className="bg-white rounded-lg shadow-md p-8 text-center">
+            <h3 className="text-2xl font-semibold mb-2 text-gray-900">Dr. Jan Duffy, REALTOR®</h3>
+            <p className="text-blue-600 font-medium mb-1">Berkshire Hathaway HomeServices Nevada Properties</p>
+            <p className="text-gray-500 mb-4">Nevada License S.0197614.LLC</p>
+            <p className="text-gray-700">
+              35 years in Las Vegas real estate. Buyers and sellers get subdivision-level sales data,
+              not online estimates, and one agent who handles their move from first call to closing.
+            </p>
           </div>
         </div>
       </section>
