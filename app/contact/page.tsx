@@ -1,5 +1,5 @@
 import { Metadata } from "next"
-import Script from "next/script"
+import { CalendlyInline } from "../../components/CalendlyInline"
 
 export const metadata: Metadata = {
   title: "Contact Dr. Jan Duffy",
@@ -33,11 +33,7 @@ export default function ContactPage() {
                 30 minutes by phone or Zoom. We cover what you want, what is selling in your target
                 neighborhood this week, and your clear next step.
               </p>
-              <div
-                className="calendly-inline-widget rounded-lg border border-gray-200"
-                data-url={`${BUYER_CONSULT_URL}?hide_gdpr_banner=1`}
-                style={{ minWidth: "320px", height: "700px" }}
-              />
+              <CalendlyInline url={`${BUYER_CONSULT_URL}?hide_gdpr_banner=1`} />
               <p className="text-sm text-gray-500 mt-3">
                 Calendar not loading?{" "}
                 <a href={BUYER_CONSULT_URL} className="text-blue-600 underline" target="_blank" rel="noopener noreferrer">
@@ -98,7 +94,6 @@ export default function ContactPage() {
         </div>
       </section>
 
-      <Script src="https://assets.calendly.com/assets/external/widget.js" strategy="lazyOnload" />
     </div>
   )
 }
