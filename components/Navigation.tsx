@@ -1,8 +1,7 @@
 "use client"
 
-import { useState } from 'react'
 import Link from 'next/link'
-import { Button } from './Button/Button'
+import { useState } from 'react'
 
 export function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
