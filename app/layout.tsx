@@ -1,8 +1,9 @@
 import "styles/tailwind.css"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Metadata } from "next"
-import { RealScoutWidget } from "../components/RealScoutWidget"
-import { Navigation } from "../components/Navigation"
 import { Footer } from "../components/Footer"
+import { Navigation } from "../components/Navigation"
+import { RealScoutWidget } from "../components/RealScoutWidget"
 
 export const metadata: Metadata = {
   title: {
@@ -80,6 +81,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         
         {/* RealScout Office Listings Widget - appears on every page */}
         <RealScoutWidget />
+        <SpeedInsights />
       </body>
     </html>
   )
