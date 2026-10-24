@@ -1,4 +1,6 @@
 import { Metadata } from "next"
+import { CalendlyInline } from "../../components/CalendlyInline"
+import { calendlyUrl } from "../../lib/calendly"
 import { Button } from "../../components/Button/Button"
 
 export const metadata: Metadata = {
@@ -399,118 +401,9 @@ export default function LendersPage() {
             Start your home buying journey with a pre-approval letter from our trusted lenders.
           </p>
           
-          <div className="bg-gray-50 rounded-lg p-8">
-            <form className="space-y-6">
-              <div className="grid md:grid-cols-2 gap-6">
-                <div>
-                  <label htmlFor="first-name" className="block text-sm font-medium text-gray-700 mb-2">
-                    First Name
-                  </label>
-                  <input
-                    type="text"
-                    id="first-name"
-                    name="first-name"
-                    placeholder="Enter your first name"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                    suppressHydrationWarning
-                  />
-                </div>
-                <div>
-                  <label htmlFor="last-name" className="block text-sm font-medium text-gray-700 mb-2">
-                    Last Name
-                  </label>
-                  <input
-                    type="text"
-                    id="last-name"
-                    name="last-name"
-                    placeholder="Enter your last name"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                    suppressHydrationWarning
-                  />
-                </div>
-              </div>
-              
-              <div className="grid md:grid-cols-2 gap-6">
-                <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
-                    Email Address
-                  </label>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    placeholder="Enter your email"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                    suppressHydrationWarning
-                  />
-                </div>
-                <div>
-                  <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
-                    Phone Number
-                  </label>
-                  <input
-                    type="tel"
-                    id="phone"
-                    name="phone"
-                    placeholder="Enter your phone number"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                    suppressHydrationWarning
-                  />
-                </div>
-              </div>
-              
-              <div className="grid md:grid-cols-2 gap-6">
-                <div>
-                  <label htmlFor="loan-type" className="block text-sm font-medium text-gray-700 mb-2">
-                    Preferred Loan Type
-                  </label>
-                  <select
-                    id="loan-type"
-                    name="loan-type"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                    suppressHydrationWarning
-                  >
-                    <option value="">Select loan type</option>
-                    <option value="conventional">Conventional</option>
-                    <option value="fha">FHA</option>
-                    <option value="va">VA</option>
-                    <option value="usda">USDA</option>
-                    <option value="jumbo">Jumbo</option>
-                  </select>
-                </div>
-                <div>
-                  <label htmlFor="purchase-price" className="block text-sm font-medium text-gray-700 mb-2">
-                    Estimated Purchase Price
-                  </label>
-                  <input
-                    type="number"
-                    id="purchase-price"
-                    name="purchase-price"
-                    placeholder="Enter estimated price"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                    suppressHydrationWarning
-                  />
-                </div>
-              </div>
-              
-              <div>
-                <label htmlFor="additional-info" className="block text-sm font-medium text-gray-700 mb-2">
-                  Additional Information
-                </label>
-                <textarea
-                  id="additional-info"
-                  name="additional-info"
-                  rows={4}
-                  placeholder="Tell us about your situation, questions, or specific needs..."
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                  suppressHydrationWarning
-                ></textarea>
-              </div>
-              
-              <Button type="submit" className="w-full bg-blue-600 text-white hover:bg-blue-700 py-3">
-                Get Pre-Approval
-              </Button>
-            </form>
+          <div>
+            <p className="text-gray-600 mb-4 text-center">Book a free buyer consultation. We cover your budget and connect you with a lender for pre-approval.</p>
+            <CalendlyInline url={calendlyUrl("buyer", "inline", "/lenders")} />
           </div>
         </div>
       </section>
