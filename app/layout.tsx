@@ -40,10 +40,36 @@ export const metadata: Metadata = {
   },
 }
 
+const siteSchema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "RealEstateAgent",
+      "@id": "https://searchnorthlasvegashomes.com/#agent",
+      name: "Dr. Jan Duffy, REALTOR®",
+      url: "https://searchnorthlasvegashomes.com",
+      areaServed: { "@type": "City", name: "North Las Vegas", containedInPlace: { "@type": "State", name: "Nevada" } },
+      memberOf: { "@type": "Organization", name: "Berkshire Hathaway HomeServices Nevada Properties" },
+      identifier: { "@type": "PropertyValue", name: "Nevada real estate license", value: "S.0197614.LLC" },
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://searchnorthlasvegashomes.com/#website",
+      name: "Search North Las Vegas Homes",
+      url: "https://searchnorthlasvegashomes.com",
+      publisher: { "@id": "https://searchnorthlasvegashomes.com/#agent" },
+    },
+  ],
+}
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(siteSchema) }}
+        />
         {/* RealScout Widget Script */}
         <script 
           src="https://em.realscout.com/widgets/realscout-web-components.umd.js" 
