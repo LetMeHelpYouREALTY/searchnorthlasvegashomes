@@ -95,7 +95,7 @@ export default function VideosPage() {
                   Centennial Hills Neighborhood Tour
                 </h3>
                 <p className="text-gray-600 mb-4">
-                  Explore the family-friendly Centennial Hills neighborhood with its amenities, schools, and mountain views.
+                  Explore the Centennial Hills neighborhood with its amenities, schools, and mountain views.
                 </p>
                 <Button href="/videos/centennial-hills-neighborhood-tour" className="text-purple-600 hover:text-purple-700">
                   Watch Video →
@@ -175,7 +175,7 @@ export default function VideosPage() {
                     <p>• Updated kitchen with stainless appliances</p>
                     <p>• Large family room with fireplace</p>
                     <p>• Spacious backyard with covered patio</p>
-                    <p>• Excellent school district</p>
+                    <p>• School district</p>
                   </div>
                   <Button href="/videos/aliante-4-bedroom-family-home" className="bg-green-600 text-white hover:bg-green-700">
                     Watch Full Tour

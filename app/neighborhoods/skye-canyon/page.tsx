@@ -381,7 +381,7 @@ export default function SkyeCanyonPage() {
             
             <div className="bg-gray-50 rounded-lg p-6">
               <h3 className="text-xl font-semibold mb-3">How are the schools in Skye Canyon?</h3>
-              <p className="text-gray-700">Skye Canyon has excellent schools with an average rating of 9.0/10. Skye Canyon Elementary (9.2/10), Skye Canyon Middle School (9.0/10), and Canyon Springs High School (8.8/10) are all highly rated within the Clark County School District.</p>
+              <p className="text-gray-700">Skye Canyon has nearby public schools with an average rating of 9.0/10. Skye Canyon Elementary (9.2/10), Skye Canyon Middle School (9.0/10), and Canyon Springs High School (8.8/10) are all highly rated within the Clark County School District.</p>
             </div>
             
             <div className="bg-gray-50 rounded-lg p-6">
@@ -401,12 +401,12 @@ export default function SkyeCanyonPage() {
             
             <div className="bg-gray-50 rounded-lg p-6">
               <h3 className="text-xl font-semibold mb-3">Is Skye Canyon a good investment for real estate?</h3>
-              <p className="text-gray-700">Yes, Skye Canyon has shown exceptional appreciation with 15% annual growth. The neighborhood's modern design, sustainability features, excellent schools, and outdoor recreation opportunities make it a highly desirable investment with properties typically selling within 28 days.</p>
+              <p className="text-gray-700">Yes, Skye Canyon has shown exceptional appreciation with 15% annual growth. The neighborhood's modern design, sustainability features, nearby public schools, and outdoor recreation opportunities make it a highly desirable investment with properties typically selling within 28 days.</p>
             </div>
             
             <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="text-xl font-semibold mb-3">What is the crime rate in Skye Canyon?</h3>
-              <p className="text-gray-700">Skye Canyon has a very low crime rate, approximately 50% below the city average. The neighborhood's 98% owner-occupancy rate, modern security features, and active community contribute to its excellent safety record.</p>
+              <h3 className="text-xl font-semibold mb-3">Where can I see crime data for Skye Canyon?</h3>
+              <p className="text-gray-700">LVMPD publishes crime data for Skye Canyon at opendata-lvmpd.hub.arcgis.com. The neighborhood has a 98% owner-occupancy rate.</p>
             </div>
             
             <div className="bg-gray-50 rounded-lg p-6">

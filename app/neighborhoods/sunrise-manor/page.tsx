@@ -3,11 +3,11 @@ import { Button } from "../../../components/Button/Button"
 
 export const metadata: Metadata = {
   title: "Sunrise Manor Neighborhood | North Las Vegas Real Estate Guide & Market Data",
-  description: "Comprehensive guide to Sunrise Manor neighborhood in North Las Vegas. Median home price: $380K, school ratings 7.8/10, family-friendly community, commute times, and real estate market trends. Expert insights for buyers and sellers.",
-  keywords: "Sunrise Manor neighborhood, North Las Vegas homes, Sunrise Manor real estate, median home price $380K, family-friendly, school ratings, commute times, market trends, buyer guide, seller guide",
+  description: "Comprehensive guide to Sunrise Manor neighborhood in North Las Vegas. Median home price: $380K, school ratings 7.8/10, community, commute times, and real estate market trends. Expert insights for buyers and sellers.",
+  keywords: "Sunrise Manor neighborhood, North Las Vegas homes, Sunrise Manor real estate, median home price $380K, school ratings, commute times, market trends, buyer guide, seller guide",
   openGraph: {
     title: "Sunrise Manor Neighborhood | North Las Vegas Real Estate Guide & Market Data",
-    description: "Comprehensive guide to Sunrise Manor neighborhood in North Las Vegas. Median home price: $380K, school ratings 7.8/10, family-friendly community, commute times, and real estate market trends.",
+    description: "Comprehensive guide to Sunrise Manor neighborhood in North Las Vegas. Median home price: $380K, school ratings 7.8/10, community, commute times, and real estate market trends.",
     url: "https://searchnorthlasvegashomes.com/neighborhoods/sunrise-manor",
   },
 }
@@ -22,7 +22,7 @@ export default function SunriseManorPage() {
             Sunrise Manor Neighborhood Guide
           </h1>
           <p className="text-xl text-center max-w-3xl mx-auto">
-            Complete guide to Sunrise Manor, North Las Vegas: Median home price $380K, 7.8/10 school rating, family-friendly community, 20-minute commute to downtown, established neighborhood with great value
+            Complete guide to Sunrise Manor, North Las Vegas: Median home price $380K, 7.8/10 school rating, community, 20-minute commute to downtown, neighborhood with great value
           </p>
         </div>
       </section>
@@ -67,7 +67,7 @@ export default function SunriseManorPage() {
             </h2>
             <div className="prose prose-lg mx-auto">
               <p className="text-lg text-gray-700 mb-6">
-                Sunrise Manor is an established, family-friendly neighborhood located in the eastern part of North Las Vegas. Known for its affordable housing, good schools, and convenient location, this community offers residents a great value proposition in the Las Vegas metropolitan area.
+                Sunrise Manor is an established, neighborhood located in the eastern part of North Las Vegas. Known for its affordable housing, nearby public schools, and convenient location, this community offers residents a great value proposition in the Las Vegas metropolitan area.
               </p>
               <p className="text-lg text-gray-700 mb-6">
                 Built primarily between 1980-2000, Sunrise Manor has matured into a stable, well-maintained neighborhood that attracts families, first-time homebuyers, and investors looking for affordable real estate opportunities in a growing market.
@@ -90,7 +90,7 @@ export default function SunriseManorPage() {
                 <li>• <strong>Household Size:</strong> 2.6 people average</li>
                 <li>• <strong>Median Household Income:</strong> $68,000</li>
                 <li>• <strong>Education Level:</strong> 58% have some college or higher</li>
-                <li>• <strong>Mature Community:</strong> Established neighborhood with character</li>
+                <li>• <strong>Older Community:</strong> Older neighborhood with character</li>
               </ul>
             </div>
           </div>
@@ -240,7 +240,7 @@ export default function SunriseManorPage() {
               </h3>
               <div className="space-y-4 text-gray-700">
                 <p>
-                  Sunrise Manor's real estate market offers excellent value for buyers, with home prices below the Las Vegas metro average while maintaining steady appreciation. The neighborhood's established nature and family-friendly atmosphere make it attractive to first-time homebuyers and families.
+                  Sunrise Manor's real estate market offers excellent value for buyers, with home prices below the Las Vegas metro average while maintaining steady appreciation. The neighborhood's mature housing stock and parks make it attractive to first-time and value-focused buyers.
                 </p>
                 <p>
                   Properties in Sunrise Manor typically offer good returns on investment, with homes selling within 45-60 days and providing solid rental income potential for investors.
@@ -382,7 +382,7 @@ export default function SunriseManorPage() {
             
             <div className="bg-gray-50 rounded-lg p-6">
               <h3 className="text-xl font-semibold mb-3">How are the schools in Sunrise Manor?</h3>
-              <p className="text-gray-700">Sunrise Manor has good schools with an average rating of 7.8/10. Sunrise Manor Elementary (7.8/10), Sunrise Manor Middle School (7.6/10), and East Career Academy High (7.9/10) provide quality education within the Clark County School District.</p>
+              <p className="text-gray-700">Sunrise Manor has nearby public schools with an average rating of 7.8/10. Sunrise Manor Elementary (7.8/10), Sunrise Manor Middle School (7.6/10), and East Career Academy High (7.9/10) provide quality education within the Clark County School District.</p>
             </div>
             
             <div className="bg-gray-50 rounded-lg p-6">
@@ -402,12 +402,12 @@ export default function SunriseManorPage() {
             
             <div className="bg-gray-50 rounded-lg p-6">
               <h3 className="text-xl font-semibold mb-3">Is Sunrise Manor a good investment for real estate?</h3>
-              <p className="text-gray-700">Yes, Sunrise Manor offers good investment potential with 6.5% annual appreciation and affordable entry prices. The neighborhood's established nature and family-friendly atmosphere make it attractive for both owner-occupants and investors.</p>
+              <p className="text-gray-700">Yes, Sunrise Manor offers good investment potential with 6.5% annual appreciation and affordable entry prices. The neighborhood's established nature and atmosphere make it attractive for both owner-occupants and investors.</p>
             </div>
             
             <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="text-xl font-semibold mb-3">What is the crime rate in Sunrise Manor?</h3>
-              <p className="text-gray-700">Sunrise Manor has a moderate crime rate, typical for established suburban areas. The neighborhood's 88% owner-occupancy rate and community involvement contribute to its overall safety.</p>
+              <h3 className="text-xl font-semibold mb-3">Where can I see crime data for Sunrise Manor?</h3>
+              <p className="text-gray-700">LVMPD publishes crime data for Sunrise Manor at opendata-lvmpd.hub.arcgis.com. The neighborhood has an 88% owner-occupancy rate.</p>
             </div>
             
             <div className="bg-gray-50 rounded-lg p-6">
@@ -417,7 +417,7 @@ export default function SunriseManorPage() {
             
             <div className="bg-gray-50 rounded-lg p-6">
               <h3 className="text-xl font-semibold mb-3">What makes Sunrise Manor unique?</h3>
-              <p className="text-gray-700">Sunrise Manor is unique for its excellent value proposition, established community with mature landscaping, family-friendly atmosphere, and convenient location that offers easy access to major destinations while maintaining affordable housing prices.</p>
+              <p className="text-gray-700">Sunrise Manor is unique for its excellent value proposition, community with mature landscaping, parks and community amenities, and convenient location that offers easy access to major destinations while maintaining affordable housing prices.</p>
             </div>
             
             <div className="bg-gray-50 rounded-lg p-6">
@@ -447,7 +447,7 @@ export default function SunriseManorPage() {
             
             <div className="bg-gray-50 rounded-lg p-6">
               <h3 className="text-xl font-semibold mb-3">How does Sunrise Manor compare to other North Las Vegas neighborhoods?</h3>
-              <p className="text-gray-700">Sunrise Manor stands out for its excellent value and mature community character. While newer neighborhoods may offer more modern amenities, Sunrise Manor's established landscaping, affordable prices, and family-friendly atmosphere make it ideal for budget-conscious buyers seeking a stable community.</p>
+              <p className="text-gray-700">Sunrise Manor stands out for its excellent value and older community character. While newer neighborhoods may offer more modern amenities, Sunrise Manor's established landscaping, affordable prices, and parks and community amenities make it ideal for budget-conscious buyers seeking a stable community.</p>
             </div>
           </div>
         </div>
@@ -460,7 +460,7 @@ export default function SunriseManorPage() {
             Ready to Find Your Home in Sunrise Manor?
           </h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
-            Let our local experts help you find the perfect home in this affordable, family-friendly North Las Vegas neighborhood. Get current market data and expert guidance.
+            Let our local experts help you find the perfect home in this affordable, North Las Vegas neighborhood. Get current market data and expert guidance.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button href="/search" className="bg-white text-orange-600 hover:bg-gray-100">

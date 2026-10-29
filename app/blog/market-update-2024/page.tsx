@@ -77,7 +77,7 @@ export default function MarketUpdate2024Page() {
               </p>
 
               <p className="text-gray-700 mb-6">
-                The appreciation has been particularly strong in newer developments like Skye Canyon and Centennial Hills, where homes built within the last 10 years have seen appreciation rates of 10-12% annually. Established neighborhoods like Aliante and Sunrise Manor have also performed well, with appreciation rates of 6-8%.
+                The appreciation has been particularly strong in newer developments like Skye Canyon and Centennial Hills, where homes built within the last 10 years have seen appreciation rates of 10-12% annually. Older neighborhoods like Aliante and Sunrise Manor have also performed well, with appreciation rates of 6-8%.
               </p>
 
               <h3 className="text-2xl font-semibold text-gray-900 mb-4">
@@ -86,8 +86,8 @@ export default function MarketUpdate2024Page() {
               
               <ul className="space-y-3 text-gray-700 mb-8">
                 <li><strong>Skye Canyon:</strong> $450,000 - $650,000 (Newer homes, premium amenities)</li>
-                <li><strong>Centennial Hills:</strong> $380,000 - $550,000 (Established community, good schools)</li>
-                <li><strong>Aliante:</strong> $350,000 - $500,000 (Family-friendly, established)</li>
+                <li><strong>Centennial Hills:</strong> $380,000 - $550,000 (Older community, nearby schools)</li>
+                <li><strong>Aliante:</strong> $350,000 - $500,000 (Established)</li>
                 <li><strong>Sunrise Manor:</strong> $320,000 - $450,000 (Affordable, good value)</li>
                 <li><strong>Winchester:</strong> $380,000 - $520,000 (Central location, convenience)</li>
               </ul>
