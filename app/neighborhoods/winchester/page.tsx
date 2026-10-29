@@ -22,7 +22,7 @@ export default function WinchesterPage() {
             Winchester Neighborhood Guide
           </h1>
           <p className="text-xl text-center max-w-3xl mx-auto">
-            Complete guide to Winchester, North Las Vegas: Median home price $410K, 8.2/10 school rating, convenient central location, 18-minute commute to downtown, established community with great accessibility
+            Complete guide to Winchester, North Las Vegas: Median home price $410K, 8.2/10 school rating, convenient central location, 18-minute commute to downtown, community with great accessibility
           </p>
         </div>
       </section>
@@ -67,7 +67,7 @@ export default function WinchesterPage() {
             </h2>
             <div className="prose prose-lg mx-auto">
               <p className="text-lg text-gray-700 mb-6">
-                Winchester is a well-established, centrally located neighborhood in North Las Vegas that offers residents excellent accessibility to major destinations throughout the Las Vegas metropolitan area. Known for its convenient location, good schools, and family-friendly atmosphere, this community provides an ideal balance of suburban living and urban convenience.
+                Winchester is a well-established, centrally located neighborhood in North Las Vegas that offers residents excellent accessibility to major destinations throughout the Las Vegas metropolitan area. Known for its convenient location, nearby schools, and parks and community amenities, this community provides an ideal balance of suburban living and urban convenience.
               </p>
               <p className="text-lg text-gray-700 mb-6">
                 Built primarily between 1990-2010, Winchester has developed into a mature, stable neighborhood that attracts families, professionals, and commuters who appreciate its central location and easy access to employment centers, shopping, and entertainment.
@@ -240,10 +240,10 @@ export default function WinchesterPage() {
               </h3>
               <div className="space-y-4 text-gray-700">
                 <p>
-                  Winchester's real estate market benefits from its central location and established community, with home values showing consistent appreciation. The neighborhood's convenience and accessibility make it attractive to both families and professionals.
+                  Winchester's real estate market benefits from its central location and older neighborhoods, with home values showing consistent appreciation. The neighborhood's convenience and accessibility attract a wide range of buyers.
                 </p>
                 <p>
-                  Properties in Winchester typically sell within 40-55 days, with the central location and good schools contributing to strong demand. The neighborhood offers a good balance of affordability and convenience.
+                  Properties in Winchester typically sell within 40-55 days, with the central location and nearby public schools contributing to strong demand. The neighborhood offers a good balance of affordability and convenience.
                 </p>
                 
                 <h4 className="text-lg font-semibold mt-6 mb-3">Market Statistics</h4>
@@ -382,7 +382,7 @@ export default function WinchesterPage() {
             
             <div className="bg-gray-50 rounded-lg p-6">
               <h3 className="text-xl font-semibold mb-3">How are the schools in Winchester?</h3>
-              <p className="text-gray-700">Winchester has good schools with an average rating of 8.2/10. Winchester Elementary (8.2/10), Winchester Middle School (8.1/10), and Centennial High School (8.1/10) provide quality education within the Clark County School District.</p>
+              <p className="text-gray-700">Winchester has nearby public schools with an average rating of 8.2/10. Winchester Elementary (8.2/10), Winchester Middle School (8.1/10), and Centennial High School (8.1/10) provide quality education within the Clark County School District.</p>
             </div>
             
             <div className="bg-gray-50 rounded-lg p-6">
@@ -402,12 +402,12 @@ export default function WinchesterPage() {
             
             <div className="bg-gray-50 rounded-lg p-6">
               <h3 className="text-xl font-semibold mb-3">Is Winchester a good investment for real estate?</h3>
-              <p className="text-gray-700">Yes, Winchester offers good investment potential with 7.8% annual appreciation and its central location. The neighborhood's convenience, good schools, and established community make it attractive for both owner-occupants and investors.</p>
+              <p className="text-gray-700">Yes, Winchester offers good investment potential with 7.8% annual appreciation and its central location. The neighborhood's convenience, nearby public schools, and community make it attractive for both owner-occupants and investors.</p>
             </div>
             
             <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="text-xl font-semibold mb-3">What is the crime rate in Winchester?</h3>
-              <p className="text-gray-700">Winchester has a low crime rate, below the city average. The neighborhood's 91% owner-occupancy rate and active community contribute to its safety and security.</p>
+              <h3 className="text-xl font-semibold mb-3">Where can I see crime data for Winchester?</h3>
+              <p className="text-gray-700">LVMPD publishes crime data for Winchester at opendata-lvmpd.hub.arcgis.com. The neighborhood has a 91% owner-occupancy rate.</p>
             </div>
             
             <div className="bg-gray-50 rounded-lg p-6">
@@ -417,7 +417,7 @@ export default function WinchesterPage() {
             
             <div className="bg-gray-50 rounded-lg p-6">
               <h3 className="text-xl font-semibold mb-3">What makes Winchester unique?</h3>
-              <p className="text-gray-700">Winchester is unique for its central location and excellent accessibility to all major destinations in Las Vegas. The neighborhood offers a perfect balance of suburban living with urban convenience, making it ideal for families and professionals.</p>
+              <p className="text-gray-700">Winchester is unique for its central location and excellent accessibility to all major destinations in Las Vegas. The neighborhood offers a perfect balance of suburban living with urban convenience, making it ideal for buyers and professionals.</p>
             </div>
             
             <div className="bg-gray-50 rounded-lg p-6">
@@ -447,7 +447,7 @@ export default function WinchesterPage() {
             
             <div className="bg-gray-50 rounded-lg p-6">
               <h3 className="text-xl font-semibold mb-3">How does Winchester compare to other North Las Vegas neighborhoods?</h3>
-              <p className="text-gray-700">Winchester stands out for its central location and accessibility. While other neighborhoods may offer newer homes or mountain views, Winchester's 15-minute radius to major destinations, established community, and good schools make it uniquely convenient for families and professionals.</p>
+              <p className="text-gray-700">Winchester stands out for its central location and accessibility. While other neighborhoods may offer newer homes or mountain views, Winchester's 15-minute radius to major destinations, older neighborhoods, and nearby schools make it uniquely convenient for buyers and professionals.</p>
             </div>
           </div>
         </div>

@@ -22,7 +22,7 @@ export default function AliantePage() {
             Aliante Neighborhood Guide
           </h1>
           <p className="text-xl text-center max-w-3xl mx-auto">
-            Complete guide to Aliante, North Las Vegas: Median home price $450K, 8.5/10 school rating, 25-minute commute to downtown, family-friendly master-planned community
+            Complete guide to Aliante, North Las Vegas: Median home price $450K, 8.5/10 school rating, 25-minute commute to downtown, master-planned community
           </p>
         </div>
       </section>
@@ -377,7 +377,7 @@ export default function AliantePage() {
             
             <div className="bg-gray-50 rounded-lg p-6">
               <h3 className="text-xl font-semibold mb-3">How are the schools in Aliante?</h3>
-              <p className="text-gray-700">Aliante has excellent schools with an average rating of 8.5/10. Aliante Elementary (8.2/10), Aliante Middle School (8.0/10), and Legacy High School (8.1/10) are all highly rated within the Clark County School District.</p>
+              <p className="text-gray-700">Aliante has nearby public schools with an average rating of 8.5/10. Aliante Elementary (8.2/10), Aliante Middle School (8.0/10), and Legacy High School (8.1/10) are all highly rated within the Clark County School District.</p>
             </div>
             
             <div className="bg-gray-50 rounded-lg p-6">
@@ -397,12 +397,12 @@ export default function AliantePage() {
             
             <div className="bg-gray-50 rounded-lg p-6">
               <h3 className="text-xl font-semibold mb-3">Is Aliante a good investment for real estate?</h3>
-              <p className="text-gray-700">Yes, Aliante has shown strong appreciation with 8.2% annual growth. The neighborhood's family-friendly atmosphere, good schools, and convenient location make it a solid investment choice with properties typically selling within 30-45 days.</p>
+              <p className="text-gray-700">Yes, Aliante has shown strong appreciation with 8.2% annual growth. The neighborhood's parks and community amenities, nearby schools, and convenient location make it a solid investment choice with properties typically selling within 30-45 days.</p>
             </div>
             
             <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="text-xl font-semibold mb-3">What is the crime rate in Aliante?</h3>
-              <p className="text-gray-700">Aliante has a low crime rate compared to other areas in Las Vegas. The neighborhood's 95% owner-occupancy rate and active community contribute to its safety and security.</p>
+              <h3 className="text-xl font-semibold mb-3">Where can I see crime data for Aliante?</h3>
+              <p className="text-gray-700">North Las Vegas Police publish crime data for Aliante online. The neighborhood has a 95% owner-occupancy rate.</p>
             </div>
             
             <div className="bg-gray-50 rounded-lg p-6">
@@ -437,7 +437,7 @@ export default function AliantePage() {
             
             <div className="bg-gray-50 rounded-lg p-6">
               <h3 className="text-xl font-semibold mb-3">What makes Aliante unique compared to other North Las Vegas neighborhoods?</h3>
-              <p className="text-gray-700">Aliante stands out for its master-planned community design, excellent schools, family-friendly atmosphere, and convenient location. The neighborhood offers a perfect balance of suburban tranquility with easy access to major employment centers, shopping, and entertainment.</p>
+              <p className="text-gray-700">Aliante stands out for its master-planned community design, nearby schools, parks and community amenities, and convenient location. The neighborhood offers a perfect balance of suburban tranquility with easy access to major employment centers, shopping, and entertainment.</p>
             </div>
           </div>
         </div>
