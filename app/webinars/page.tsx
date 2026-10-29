@@ -458,9 +458,9 @@ export default function WebinarsPage() {
                 <span className="text-3xl font-bold text-white">JD</span>
               </div>
               <h3 className="text-xl font-semibold mb-2 text-gray-900">Dr. Jan Duffy</h3>
-              <p className="text-blue-600 mb-2">Top 1% Las Vegas REALTOR® · Principal Broker & Market Analyst</p>
+              <p className="text-blue-600 mb-2">Las Vegas REALTOR® · Principal Broker & Market Analyst</p>
               <p className="text-gray-600 text-sm">
-                Expert in North Las Vegas market trends, in real estate since 1983, with experience in residential and investment real estate.
+                Expert in North Las Vegas market trends, licensed since 2008 · 35 years in Las Vegas, with experience in residential and investment real estate.
               </p>
             </div>
 
