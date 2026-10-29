@@ -35,11 +35,11 @@ export default function NeighborhoodsPage() {
                   Aliante
                 </h3>
                 <p className="text-gray-600 mb-4">
-                  A master-planned community with excellent schools, parks, and shopping centers.
+                  A master-planned community with nearby public schools, parks, and shopping centers.
                 </p>
                 <div className="space-y-2 text-sm text-gray-600">
                   <p>🏠 Average Home Price: $450,000</p>
-                  <p>🎓 Top-Rated Schools</p>
+                  <p>🎓 Nearby Public Schools</p>
                   <p>🛒 Shopping & Dining</p>
                 </div>
                 <Button href="/neighborhoods/aliante" className="mt-4 w-full bg-blue-600 hover:bg-blue-700 text-white">
@@ -54,7 +54,7 @@ export default function NeighborhoodsPage() {
                   Centennial Hills
                 </h3>
                 <p className="text-gray-600 mb-4">
-                  Family-friendly area with mountain views and excellent recreational opportunities.
+                  Area with mountain views and excellent recreational opportunities.
                 </p>
                 <div className="space-y-2 text-sm text-gray-600">
                   <p>🏠 Average Home Price: $520,000</p>
@@ -128,7 +128,7 @@ export default function NeighborhoodsPage() {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4 max-w-6xl">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">
-            Top School Districts
+            School Attendance Zones
           </h2>
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-gray-50 rounded-lg p-6">

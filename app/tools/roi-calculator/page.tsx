@@ -226,7 +226,7 @@ export default function ROICalculatorPage() {
               </p>
               <div className="space-y-2 text-gray-600">
                 <p>• Aliante: Master-planned community</p>
-                <p>• Centennial Hills: Family-friendly area</p>
+                <p>• Centennial Hills: Area</p>
                 <p>• Skye Canyon: New development</p>
                 <p>• Downtown North Las Vegas: Revitalization</p>
               </div>
@@ -302,7 +302,7 @@ export default function ROICalculatorPage() {
                 Research Neighborhoods
               </h3>
               <p className="text-gray-600">
-                Focus on areas with strong job growth, good schools, and planned infrastructure improvements.
+                Focus on areas with strong job growth, nearby public schools, and planned infrastructure improvements.
               </p>
             </div>
             <div className="bg-gray-50 rounded-lg p-6">

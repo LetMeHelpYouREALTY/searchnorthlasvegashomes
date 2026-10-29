@@ -201,13 +201,13 @@ export default function ReportsPage() {
                 Centennial Hills Report
               </h3>
               <p className="text-gray-600 mb-4">
-                Detailed analysis of Centennial Hills, including family-friendly amenities, mountain views, and market performance.
+                Detailed analysis of Centennial Hills, including amenities, mountain views, and market performance.
               </p>
               <div className="space-y-2 text-gray-600 mb-6">
                 <p>• Median home price: $420,000</p>
                 <p>• Average days on market: 38</p>
                 <p>• Annual appreciation: 12%</p>
-                <p>• Family-friendly score: 9/10</p>
+                <p>• Score: 9/10</p>
               </div>
               <Button href="/neighborhoods/centennial-hills" className="w-full bg-green-600 text-white hover:bg-green-700">
                 View Report

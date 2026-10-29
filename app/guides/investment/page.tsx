@@ -295,7 +295,7 @@ export default function InvestmentGuidePage() {
                     <li>• Affordable housing compared to Las Vegas</li>
                     <li>• New infrastructure development</li>
                     <li>• Proximity to major employers</li>
-                    <li>• Family-friendly communities</li>
+                    <li>• Communities</li>
                     <li>• Investment in public services</li>
                   </ul>
                 </div>
@@ -315,11 +315,11 @@ export default function InvestmentGuidePage() {
                   <div className="space-y-4">
                     <div className="border-l-4 border-indigo-500 pl-4">
                       <h5 className="font-semibold text-gray-900">Aliante</h5>
-                      <p className="text-sm text-gray-600">Master-planned community with excellent schools and amenities</p>
+                      <p className="text-sm text-gray-600">Master-planned community with nearby public schools and amenities</p>
                     </div>
                     <div className="border-l-4 border-blue-500 pl-4">
                       <h5 className="font-semibold text-gray-900">Centennial Hills</h5>
-                      <p className="text-sm text-gray-600">Family-friendly area with mountain views and good appreciation</p>
+                      <p className="text-sm text-gray-600">Area with mountain views and good appreciation</p>
                     </div>
                     <div className="border-l-4 border-green-500 pl-4">
                       <h5 className="font-semibold text-gray-900">Skye Canyon</h5>
@@ -335,9 +335,9 @@ export default function InvestmentGuidePage() {
                   <h4 className="text-lg font-semibold mb-3 text-gray-900">Investment Criteria</h4>
                   <ul className="space-y-2 text-gray-600">
                     <li>• Strong job market proximity</li>
-                    <li>• Good school districts</li>
+                    <li>• Nearby public schools</li>
                     <li>• Planned infrastructure improvements</li>
-                    <li>• Low crime rates</li>
+                    <li>• Public crime maps online</li>
                     <li>• Rental demand indicators</li>
                     <li>• Price appreciation potential</li>
                     <li>• Property tax rates</li>

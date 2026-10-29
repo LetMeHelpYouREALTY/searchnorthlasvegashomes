@@ -22,7 +22,7 @@ export default function CentennialHillsNeighborhoodPage() {
             Centennial Hills Neighborhood Guide
           </h1>
           <p className="text-xl text-center max-w-3xl mx-auto">
-            Complete guide to Centennial Hills, North Las Vegas: Median home price $420K, 9/10 school rating, stunning mountain views, 30-minute commute to downtown, family-friendly community
+            Complete guide to Centennial Hills, North Las Vegas: Median home price $420K, 9/10 school rating, stunning mountain views, 30-minute commute to downtown, community
           </p>
         </div>
       </section>
@@ -51,8 +51,8 @@ export default function CentennialHillsNeighborhoodPage() {
             </div>
             <div>
               <div className="text-3xl font-bold text-orange-600 mb-2">9/10</div>
-              <div className="text-gray-600">Family-Friendly Score</div>
-              <div className="text-sm text-gray-500">Excellent schools</div>
+              <div className="text-gray-600">Score</div>
+              <div className="text-sm text-gray-500">Nearby public schools</div>
             </div>
           </div>
         </div>
@@ -67,7 +67,7 @@ export default function CentennialHillsNeighborhoodPage() {
                 About Centennial Hills Neighborhood
               </h2>
               <p className="text-lg text-gray-600 mb-6">
-                Centennial Hills is a picturesque neighborhood nestled against the Spring Mountains in the northwestern part of North Las Vegas. Known for its family-friendly atmosphere, excellent schools, and breathtaking mountain views, this community offers residents a perfect balance of suburban tranquility and modern convenience.
+                Centennial Hills is a picturesque neighborhood nestled against the Spring Mountains in the northwestern part of North Las Vegas. Known for its parks and community amenities, nearby schools, and breathtaking mountain views, this community offers residents a perfect balance of suburban tranquility and modern convenience.
               </p>
               <p className="text-gray-600 mb-6">
                 Developed primarily in the 1990s and 2000s, Centennial Hills has become one of the most sought-after areas in North Las Vegas, attracting families, professionals, and outdoor enthusiasts who appreciate the area's natural beauty and strong sense of community.
@@ -116,7 +116,7 @@ export default function CentennialHillsNeighborhoodPage() {
                   </div>
                   <div>
                     <div className="font-semibold text-gray-900">Education</div>
-                    <div className="text-sm text-gray-600">Top-rated schools and educational programs</div>
+                    <div className="text-sm text-gray-600">Nearby public schools and educational programs</div>
                   </div>
                 </div>
                 <div className="flex items-center space-x-3">
@@ -240,10 +240,10 @@ export default function CentennialHillsNeighborhoodPage() {
               </div>
               <h3 className="text-xl font-semibold mb-3 text-gray-900">Safety & Security</h3>
               <p className="text-gray-600 mb-4">
-                A safe and secure community with excellent police presence, neighborhood watch programs, and well-maintained streets.
+                A community with neighborhood watch programs and well-maintained streets.
               </p>
               <ul className="space-y-1 text-sm text-gray-600">
-                <li>• <strong>Low crime rates</strong> - 40% below city average</li>
+                <li>• <strong>Crime data</strong> - LVMPD publishes an online crime map</li>
                 <li>• <strong>Active neighborhood watch</strong> - Community patrols</li>
                 <li>• <strong>Well-lit streets and sidewalks</strong> - LED lighting</li>
                 <li>• <strong>Community safety programs</strong> - Emergency preparedness</li>
@@ -465,11 +465,11 @@ export default function CentennialHillsNeighborhoodPage() {
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-green-600 rounded-full"></div>
-                  <span className="text-gray-700">Excellent school district and educational opportunities</span>
+                  <span className="text-gray-700">School district and educational opportunities</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-green-600 rounded-full"></div>
-                  <span className="text-gray-700">Family-friendly atmosphere and community</span>
+                  <span className="text-gray-700">Parks and community amenities and community</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-green-600 rounded-full"></div>
@@ -487,7 +487,7 @@ export default function CentennialHillsNeighborhoodPage() {
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-green-600 rounded-full"></div>
-                  <span className="text-gray-700">Low crime rates and safe environment</span>
+                  <span className="text-gray-700">Public crime maps online</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-green-600 rounded-full"></div>
@@ -589,7 +589,7 @@ export default function CentennialHillsNeighborhoodPage() {
             
             <div className="bg-gray-50 rounded-lg p-6">
               <h3 className="text-xl font-semibold mb-3">How are the schools in Centennial Hills?</h3>
-              <p className="text-gray-700">Centennial Hills has excellent schools with an average rating of 9/10. Centennial Hills Elementary (9/10), Centennial Hills Middle School (8/10), and Centennial High School (8/10) are all highly rated within the Clark County School District.</p>
+              <p className="text-gray-700">Centennial Hills has nearby public schools with an average rating of 9/10. Centennial Hills Elementary (9/10), Centennial Hills Middle School (8/10), and Centennial High School (8/10) are all highly rated within the Clark County School District.</p>
             </div>
             
             <div className="bg-gray-50 rounded-lg p-6">
@@ -609,12 +609,12 @@ export default function CentennialHillsNeighborhoodPage() {
             
             <div className="bg-gray-50 rounded-lg p-6">
               <h3 className="text-xl font-semibold mb-3">Is Centennial Hills a good investment for real estate?</h3>
-              <p className="text-gray-700">Yes, Centennial Hills has shown strong appreciation with 12% annual growth. The neighborhood's family-friendly atmosphere, excellent schools, mountain views, and convenient location make it a solid investment choice with properties typically selling within 38 days.</p>
+              <p className="text-gray-700">Yes, Centennial Hills has shown strong appreciation with 12% annual growth. The neighborhood's parks and community amenities, nearby schools, mountain views, and convenient location make it a solid investment choice with properties typically selling within 38 days.</p>
             </div>
             
             <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="text-xl font-semibold mb-3">What is the crime rate in Centennial Hills?</h3>
-              <p className="text-gray-700">Centennial Hills has a very low crime rate, approximately 40% below the city average. The neighborhood's 92% owner-occupancy rate, active neighborhood watch programs, and community safety initiatives contribute to its excellent safety record.</p>
+              <h3 className="text-xl font-semibold mb-3">Where can I see crime data for Centennial Hills?</h3>
+              <p className="text-gray-700">LVMPD publishes crime data for Centennial Hills at opendata-lvmpd.hub.arcgis.com. The neighborhood has a 92% owner-occupancy rate and active neighborhood watch programs.</p>
             </div>
             
             <div className="bg-gray-50 rounded-lg p-6">
@@ -624,7 +624,7 @@ export default function CentennialHillsNeighborhoodPage() {
             
             <div className="bg-gray-50 rounded-lg p-6">
               <h3 className="text-xl font-semibold mb-3">What makes Centennial Hills unique?</h3>
-              <p className="text-gray-700">Centennial Hills is unique for its stunning mountain views of the Spring Mountains, higher elevation (2,800-3,200 feet), abundant outdoor recreation opportunities, excellent schools, and peaceful suburban atmosphere while still being conveniently located near major amenities.</p>
+              <p className="text-gray-700">Centennial Hills is unique for its stunning mountain views of the Spring Mountains, higher elevation (2,800-3,200 feet), abundant outdoor recreation opportunities, nearby public schools, and peaceful suburban atmosphere while still being conveniently located near major amenities.</p>
             </div>
           </div>
         </div>
