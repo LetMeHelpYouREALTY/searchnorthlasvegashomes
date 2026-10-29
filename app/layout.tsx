@@ -4,7 +4,6 @@ import { Footer } from "../components/Footer"
 import { Navigation } from "../components/Navigation"
 import { CalendlyAfterListings } from "../components/CalendlyAfterListings"
 import { RealScoutWidget } from "../components/RealScoutWidget"
-import WidgetTracker from './widget-tracker'
 
 export const metadata: Metadata = {
   title: {
@@ -109,7 +108,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* RealScout Office Listings Widget - appears on every page */}
         <RealScoutWidget />
         <CalendlyAfterListings />
-        <WidgetTracker />
       </body>
     </html>
   )
