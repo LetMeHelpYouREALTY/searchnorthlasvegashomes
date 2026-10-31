@@ -4,6 +4,8 @@ import { Footer } from "../components/Footer"
 import { Navigation } from "../components/Navigation"
 import { CalendlyAfterListings } from "../components/CalendlyAfterListings"
 import { RealScoutWidget } from "../components/RealScoutWidget"
+import { Analytics as VercelAnalytics } from "@vercel/analytics/next";
+import { SpeedInsights as VercelSpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata: Metadata = {
   title: {
@@ -108,6 +110,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* RealScout Office Listings Widget - appears on every page */}
         <RealScoutWidget />
         <CalendlyAfterListings />
+        <VercelAnalytics />
+        <VercelSpeedInsights />
       </body>
     </html>
   )
