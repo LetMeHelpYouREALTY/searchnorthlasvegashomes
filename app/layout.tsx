@@ -4,6 +4,7 @@ import { Footer } from "../components/Footer"
 import { Navigation } from "../components/Navigation"
 import { CalendlyAfterListings } from "../components/CalendlyAfterListings"
 import { RealScoutWidget } from "../components/RealScoutWidget"
+import FubScript from 'next/script';
 
 export const metadata: Metadata = {
   title: {
@@ -108,6 +109,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* RealScout Office Listings Widget - appears on every page */}
         <RealScoutWidget />
         <CalendlyAfterListings />
+        <FubScript
+          id="fub-widget-tracker"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `(function(w,i,d,g,e,t){w["WidgetTrackerObject"]=g;(w[g]=w[g]||function() {(w[g].q=w[g].q||[]).push(arguments);}),(w[g].ds=1*new Date());(e="script"), (t=d.createElement(e)),(e=d.getElementsByTagName(e)[0]);t.async=1;t.src=i; e.parentNode.insertBefore(t,e);}) (window,"https://widgetbe.com/agent",document,"widgetTracker"); window.widgetTracker("create", "WT-XQHVYQWW"); window.widgetTracker("send", "pageview");`,
+          }}
+        />
       </body>
     </html>
   )
